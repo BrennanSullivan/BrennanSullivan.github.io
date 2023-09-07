@@ -5,7 +5,7 @@ bio: Neuroscience PhD Student
 description: Brennan Sullivan's Academic Website
 
 # Profile picture
-picture: assets/images/profile.jpg
+picture: assets/images/me.jpeg
 
 # your url: http://USERNAME.github.io
 url: https://github.com/brennanSullivan.github.io
@@ -41,7 +41,7 @@ width: normal
 about: true
 
 # do you want to display a skills section? true or false
-skills: true
+skills: false
 
 # add your skills here
 skills-list:
@@ -50,7 +50,7 @@ skills-list:
     - Tools - MacOS, Jupyter Notebook, Git 
 
 # do you want to display a projects section? true or false
-projects: true
+projects: false
 
 # add your projects here
 project-list:
