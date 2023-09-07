@@ -1,6 +1,6 @@
 # Your name and what you do
-name: Brennan Sullivan
-bio: Neuroscience Ph.D. Student
+name: brennan sullivan
+bio: how do brains learn?
 
 description: How do brains learn?
 
@@ -54,10 +54,10 @@ projects: false
 
 # add your projects here
 project-list:
-    Eve:
-        name: Eve
-        description: Ultra Minimal Single-page Jekyll Template for Building Personal Portfolio Websites
-        url: https://github.com/jibolash/Eve
+    KCC2:
+        name: Targeting ischemia-induced KCC2 hypofunction rescues refractory neonatal seizures and mitigates epileptogenesis in a mouse model
+        description: Neonatal seizures pose a clinical challenge in their early detection, acute management, and long-term comorbidities. They are often caused by hypoxic-ischemic encephalopathy and are frequently refractory to the first-line antiseizure medication phenobarbital. Our findings therefore validate KCC2 as a clinically relevant target for refractory neonatal seizures and provide insights for future drug development.
+        url: https://www.science.org/doi/10.1126/scisignal.abg2648?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
     World-Cup-History:
         name: World Cup  History
         description: npm package for FIFA World cup historical data
