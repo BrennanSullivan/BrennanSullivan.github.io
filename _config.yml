@@ -5,10 +5,10 @@ bio: Neuroscience Ph.D. Student
 description: How do brains learn?
 
 # Profile picture
-picture: assets/images/profile.jpg
+picture: assets/images/profile.jpeg
 
 # your url: http://USERNAME.github.io
-url: https://github.com/brennanSullivan
+url: https://github.com/brennanSullivan.github.io
 
 # do you want to display social media links? true or false
 social-media: true
@@ -16,7 +16,7 @@ social-media: true
 # If you don't have an account on any of them, comment out the line
 # facebook: myfacebook
 twitter: currentclamp
-linkedin: brennan-sullivan
+linkedin: sullivan-brennan
 github: brennanSullivan
 email: brennansullivan@bcm.edu
 # google: mygoogle
@@ -50,7 +50,7 @@ skills-list:
     - Tools - MacOS, Jupyter Notebook, Git 
 
 # do you want to display a projects section? true or false
-projects: true
+projects: false
 
 # add your projects here
 project-list:
@@ -73,7 +73,7 @@ project-list:
 
 
 # do you want to display the theme attribution? true or false
-footer: true
+footer: false
 
 # Enable animations? true or false
 animation: true
