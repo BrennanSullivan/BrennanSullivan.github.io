@@ -1,24 +1,24 @@
 # Your name and what you do
-name: Eve Adam
-bio: Software Developer
+name: Brennan Sullivan
+bio: Neuroscience Ph.D. Student
 
-description: Eve Adam's Personal Website
+description: How do brains learn?
 
 # Profile picture
 picture: assets/images/profile.jpg
 
 # your url: http://USERNAME.github.io
-url: https://jibolash.github.io/Eve/
+url: https://github.com/brennanSullivan
 
 # do you want to display social media links? true or false
 social-media: true
 # Add your username for the social media websites listed below
 # If you don't have an account on any of them, comment out the line
 # facebook: myfacebook
-twitter: mytwitter
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+twitter: currentclamp
+linkedin: brennan-sullivan
+github: brennanSullivan
+email: brennansullivan@bcm.edu
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -41,18 +41,13 @@ width: normal
 about: true
 
 # do you want to display a skills section? true or false
-skills: true
+skills: false
 
 # add your skills here
 skills-list:
-    - HTML, Jade
-    - CSS (Stylus, Sass, Less)
-    - Javascript, NodeJS
-    - AngularJS, ReactJS
-    - Java, Android
-    - Python
-    - MySQL - MongoDB    
-    - Git    
+    - Languages - Python and Matlab
+    - Libraries - Numpy, Pandas, Scipy, Scikit-learn 
+    - Tools - MacOS, Jupyter Notebook, Git 
 
 # do you want to display a projects section? true or false
 projects: true
