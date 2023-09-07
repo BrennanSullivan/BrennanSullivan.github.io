@@ -1,6 +1,6 @@
 # Your name and what you do
-name: brennan sullivan
-bio: how do brains learn?
+name: Brennan Sullivan
+bio: Neuroscience PhD Student
 
 description: Brennan Sullivan's Academic Website
 
@@ -35,13 +35,13 @@ email: brennansullivan@bcm.edu
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: large
+width: normal
 
 # do you want to display an about section? true or false
 about: true
 
 # do you want to display a skills section? true or false
-skills: false
+skills: true
 
 # add your skills here
 skills-list:
@@ -50,7 +50,7 @@ skills-list:
     - Tools - MacOS, Jupyter Notebook, Git 
 
 # do you want to display a projects section? true or false
-projects: false
+projects: true
 
 # add your projects here
 project-list:
