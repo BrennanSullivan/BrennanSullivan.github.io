@@ -8,7 +8,7 @@ description: Brennan Sullivan's Academic Website
 picture: assets/images/profile.jpg
 
 # your url: http://USERNAME.github.io
-url: https://github.com/brennanSullivan.github.io
+url: https://brennanSullivan.github.io
 
 # do you want to display social media links? true or false
 social-media: true
@@ -41,7 +41,7 @@ width: normal
 about: true
 
 # do you want to display a skills section? true or false
-skills: false
+skills: true
 
 # add your skills here
 skills-list:
@@ -50,7 +50,7 @@ skills-list:
     - Tools - MacOS, Jupyter Notebook, Git 
 
 # do you want to display a projects section? true or false
-projects: false
+projects: true
 
 # add your projects here
 project-list:
@@ -73,7 +73,7 @@ project-list:
 
 
 # do you want to display the theme attribution? true or false
-footer: false
+footer: true
 
 # Enable animations? true or false
 animation: true
