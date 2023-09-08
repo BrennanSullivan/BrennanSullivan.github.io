@@ -31,7 +31,7 @@ width: normal
 about: true
 
 # do you want to display a skills section? true or false
-skills: false
+skills: true
 
 # add your skills here
 skills-list:
