@@ -1,6 +1,6 @@
 # Your name and what you do
 name: Brennan Sullivan
-bio: How do brains learn?
+bio: Ph.D. Student
 
 description: My online academic CV
 
@@ -20,6 +20,7 @@ linkedin: sullivan-brennan
 github: brennanSullivan
 email: brennansullivan@bcm.edu
 googlescholar: citations?user=4WC4CvsAAAAJ&hl=en
+
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
