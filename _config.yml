@@ -1,6 +1,6 @@
 # Your name and what you do
 name: Brennan James Sullivan
-bio: Ph.D. Student
+bio: How do brains learn?
 
 description: My online academic CV
 
@@ -31,7 +31,7 @@ width: normal
 about: true
 
 # do you want to display a skills section? true or false
-skills: true
+skills: false
 
 # add your skills here
 skills-list:
