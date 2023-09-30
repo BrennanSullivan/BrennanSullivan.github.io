@@ -35,9 +35,9 @@ skills: false
 
 # add your skills here
 skills-list:
-    - Languages - Python and Matlab
+    - Languages - Python
     - Libraries - Numpy, Pandas, Scipy, Scikit-learn 
-    - Tools - MacOS, Jupyter Notebook, Git 
+    - Tools - MacOS, Jupyter Notebook, Git, LaTeX
 
 # do you want to display a projects section? true or false
 projects: false
