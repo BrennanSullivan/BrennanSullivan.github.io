@@ -40,7 +40,7 @@ skills-list:
     - Tools - MacOS, Jupyter Notebook, Git, LaTeX
 
 # do you want to display a projects section? true or false
-papers: true
+papers-list: true
 
 
 # do you want to display the theme attribution? true or false
