@@ -2,12 +2,9 @@
     title: "Targeting ischemia-induced KCC2 hypofunction rescues refractory neonatal seizures and mitigates epileptogenesis in a mouse model"
     authors: "Brennan Sullivan"
     journal: "Science Signaling"
-    volume: 
     year: 2021
-    url: 
-    code:
-    image: 
-    imagetype:
+    url: https://www.science.org/doi/full/10.1126/scisignal.abg2648
+    image: Sullivan2021
+    imagetype: png
     briefly: "I wrote a paper once."
     highlight: true
--
