@@ -15,12 +15,13 @@ social-media: true
 # Add your username for the social media websites listed below
 # If you don't have an account on any of them, comment out the line
 # facebook: myfacebook
-twitter: currentclamp
+cv: cv.pdf
+googlescholar: citations?user=4WC4CvsAAAAJ&hl=en
 linkedin: sullivan-brennan
 github: brennanSullivan
+twitter: currentclamp
 email: brennansullivan@bcm.edu
-googlescholar: citations?user=4WC4CvsAAAAJ&hl=en
-cv: cv.pdf
+
 
 
 # do you want a larger site? change the option below
