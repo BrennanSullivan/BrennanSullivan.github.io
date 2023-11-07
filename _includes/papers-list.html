@@ -1,7 +1,7 @@
 <div style="text-align: center; margin: 0 auto;">
-  <ul class="resume-item-list papers-list" style="list-style-type: none; padding: 10; text-align: left;">
+  <ul class="resume-item-list papers-list" style="list-style-type: none; padding: 0; text-align: left;">
     {% for paper in site.data.papers %}
-      <li class="paper-item" style="border: 1px solid #000; border-radius: 10px; padding: 0px; margin: 0;">
+      <li class="paper-item" style="border: 1px solid #000; border-radius: 10px; padding: 10px; margin: 0;">
         <a href="{{ paper.url }}" class="paper-title-link"><strong>{{ paper.title }}</strong></a>
         <a href="{{ paper.url }}" class="paper-link" style="display: none;">[link]</a>
         <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link">[pdf]</a>
