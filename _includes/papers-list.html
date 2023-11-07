@@ -1,24 +1,27 @@
-<ul class="resume-item-list papers-list" style="list-style-type: none;">
-  {% for paper in site.data.papers %}
-    <li class="paper-item" style="border: 1px solid #000; border-radius: 10px; padding: 10px; margin: 10px;">
-      <a href="{{ paper.url }}" class="paper-title-link"><strong>{{ paper.title }}</strong></a>
-      <a href="{{ paper.url }}" class="paper-link" style="display: none;">[link]</a>
-      <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link">[pdf]</a>
-        {% if paper.code %}
-          <a href="{{ paper.code }}" class="paper-link">[code]</a>
-        {% endif %}
-        {% if paper.demo %}
-          <a href="{{ paper.demo }}" class="paper-link">[demo]</a>
-        {% endif %}
-        <br>
-      <span style="font-size:smaller;">
-        <span style="color: gray;">{{ paper.authors }}</span>
-        <br><i>{{ paper.journal }}</i> {{ paper.volume }} ({{ paper.year }})
-      </span>
-      <div class="paper-content">
-        <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width="500px" class="paper-image">
-        <p class="paper-brief"><i>Summary:</i> {{ paper.briefly }}</p><br/>
-      </div>
-    </li><br>
-  {% endfor %}
-</ul>
+<div style="text-align: center; max-width: 800px; margin: 0 auto;">
+  <h2>Publications</h2>
+  <ul class="resume-item-list papers-list" style="list-style-type: none; margin: 0 auto; text-align: left;">
+      {% for paper in site.data.papers %}
+        <li class="paper-item" style="border: 1px solid #000; border-radius: 10px; padding: 10px; margin: 10px;">
+          <a href="{{ paper.url }}" class="paper-title-link"><strong>{{ paper.title }}</strong></a>
+          <a href="{{ paper.url }}" class="paper-link" style="display: none;">[link]</a>
+          <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link">[pdf]</a>
+            {% if paper.code %}
+              <a href="{{ paper.code }}" class="paper-link">[code]</a>
+            {% endif %}
+            {% if paper.demo %}
+              <a href="{{ paper.demo }}" class="paper-link">[demo]</a>
+            {% endif %}
+            <br>
+          <span style="font-size:smaller;">
+            <span style="color: gray;">{{ paper.authors }}</span>
+            <br><i>{{ paper.journal }}</i> {{ paper.volume }} ({{ paper.year }})
+          </span>
+          <div class="paper-content">
+            <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width="500px" class="paper-image">
+            <p class="paper-brief"><i>Summary:</i> {{ paper.briefly }}</p><br/>
+          </div>
+        </li><br>
+      {% endfor %}
+  </ul>
+</div>
