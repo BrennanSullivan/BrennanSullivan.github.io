@@ -4,8 +4,8 @@
     journal: "Science Signaling"
     year: 2021
     url: https://www.science.org/doi/full/10.1126/scisignal.abg2648
-    image: Sullivan2021
-    imagetype: png
+    image: Sullivan2020
+    imagetype: gif
     briefly: "I wrote a paper once."
     highlight: true
 -
@@ -14,7 +14,7 @@
     journal: "Biological Psychiatry"
     year: 2020
     url: https://www.biologicalpsychiatryjournal.com/article/S0006-3223(20)30002-0/fulltext
-    image: Sullivan2020
-    imagetype: gif
+    image: Sullivan2021
+    imagetype: png
     briefly: "I wrote a paper once."
     highlight: true
