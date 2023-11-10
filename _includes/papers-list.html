@@ -17,7 +17,9 @@
           <br><i>{{ paper.journal }}</i> {{ paper.volume }} ({{ paper.year }})
         </span>
         <div class="paper-content">
-          <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width = "300" height = "300" class="paper-image">
+          <a href="static/images/papers/{{ paper.image }}_thumbnail.jpg" class="paper-image">
+            <img src="static/images/papers/{{ paper.image }}_thumbnail.jpg" width="100%">
+          </a>
           <p class="paper-brief"><i>Summary:</i> {{ paper.briefly }}</p><br/>
         </div>
       </li>
