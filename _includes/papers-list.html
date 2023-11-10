@@ -9,7 +9,7 @@
         </div>
         <div style="width: 100%; display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
           <div style="width: 30%; margin-right: 20px;">
-            <img src="static/images/papers/{{ paper.image }}_static.{{ paper.imagetype }}" onmouseover="startAnimation(this)" onmouseout="stopAnimation(this)" width="100%" height="100%" class="paper-image">
+            <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width="100%" height="100%" class="paper-image">
           </div>
           <div style="width: 65%; text-align: justify;">
             <div class="paper-content">
@@ -31,13 +31,3 @@
   </ul>
   <p>For a complete list of publications, please <a href="https://scholar.google.com/citations?user=4WC4CvsAAAAJ" target="_blank">see here</a>.</p>
 </div>
-
-<script>
-function startAnimation(img) {
-  img.src = img.src.replace('_static', '');
-}
-
-function stopAnimation(img) {
-  img.src = img.src.replace('.gif', '_static.gif');
-}
-</script>
