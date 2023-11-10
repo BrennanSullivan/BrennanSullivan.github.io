@@ -24,8 +24,9 @@
     font-weight: bold;
     clear: both;
     font-size: 1.3rem;
-}
-
+    color: #DC0000; /* Add this line to set the color */
+    }
+    
 .paper-content {
     overflow: auto; /* Ensure content within the item doesn't overflow */
     padding-top: 1em;
