@@ -5,7 +5,6 @@
         <div style="width: 100%; text-align: justify;">
           <a href="{{ paper.url }}" class="paper-title-link" style="text-decoration: none;"><strong>{{ paper.title }}</strong></a>
           <span style="color: #000; font-size: smaller;">{{ paper.authors }}</span>
-          <br>
           <span style="font-size: smaller;"><i>{{ paper.journal }}</i> {{ paper.volume }} ({{ paper.year }})</span>
         </div>
         <div style="width: 100%; display: flex; justify-content: space-between; align-items: flex-start; margin-top: 10px;">
@@ -16,8 +15,9 @@
             <div class="paper-content">
               <p class="paper-brief">{{ paper.briefly }}</p><br/>
             </div>
-            <a href="{{ paper.url }}" class="paper-link" style="display: none;">[link]</a>
-            <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link">[pdf]</a>
+            <div style="display: flex; justify-content: flex-end;">
+              <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #zeta; text-decoration: none;">pdf</a>
+            </div>
             {% if paper.code %}
               <a href="{{ paper.code }}" class="paper-link">[code]</a>
             {% endif %}
