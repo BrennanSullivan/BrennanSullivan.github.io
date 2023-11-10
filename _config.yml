@@ -39,7 +39,7 @@ skills: false
 skills-list:
     - Languages - Python
     - Libraries - Numpy, Pandas, Scipy, Scikit-learn 
-    - Tools - MacOS, Jupyter Notebook, Git, LaTeX
+    - Tools - Linux, MacOS, Jupyter Notebook, Git, LaTeX
 
 # do you want to display a projects section? true or false
 papers-list: true
