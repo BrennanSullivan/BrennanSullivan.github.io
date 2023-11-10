@@ -6,7 +6,7 @@
     url: https://www.science.org/doi/full/10.1126/scisignal.abg2648
     image: Sullivan2021
     imagetype: png
-    briefly: "Neonatal seizures are often associated with resistance to antiseizure drugs. We found that acutely enhancing KCC2 activity reduced seizures in a neonatal mouse model. These effects depended on KCC2 abundance and phosphorylation. The findings demonstrate the potential of KCC2 as a target for neonatal seizures."
+    briefly: "Neonatal seizures are often associated with resistance to antiseizure drugs. We found that enhancing KCC2 activity reduced seizures in a neonatal mouse model. KCC2 abundance and phosphorylation were necessary for these effects. These findings demonstrate the potential of KCC2 as a target for neonatal seizures."
     highlight: false
 -
     title: "Low-Dose Perampanel Rescues Cortical Gamma Dysregulation Associated With Parvalbumin Interneuron GluA2 Upregulation in Epileptic Syngap1<sup>+</sup><sup>/</sup><sup>−</sup> Mice."
@@ -16,7 +16,7 @@
     url: https://www.biologicalpsychiatryjournal.com/article/S0006-3223(20)30002-0/fulltext
     image: Sullivan2020
     imagetype: png
-    briefly: " Loss-of-function SYNGAP1 mutations cause a neurodevelopmental disorder characterized by intellectual disability and epilepsy. SYNGAP1 is a Ras GTPase-activating protein that underlies the formation and regulation of dendritic spines. We establised the sleep dysfunction and epilepsy phenotype in a mouse model. An acute low dose of an AMPA receptor antagonist, perampanel, reduced seizures and restored cortical gamma activity. "
+    briefly: " Loss-of-function SYNGAP1 mutations cause a neurodevelopmental disorder characterized by intellectual disability and epilepsy. SYNGAP1 is crucial the formation and regulation of dendritic spines. In our study, we established the sleep dysfunction and epilepsy phenotype in a mouse model. The administration of an acute low dose of an AMPA receptor antagonist, perampanel, reduced seizures and restored cortical gamma activity. "
     highlight: false
 - 
     title: "TrkB agonists prevent post-ischemic BDNF-TrkB mediated emergence of refractory neonatal seizures in CD-1 pups."
@@ -26,5 +26,5 @@
     url: https://insight.jci.org/articles/view/136007 
     image: Kipnis2020
     imagetype: png
-    briefly: "During prolonged neonatal seizures, excessive activation of the BDNF receptor kinase, TrkB is associated with the development of refractory seizures. Using a chemical-genetic mouse model, we found that TrkB activation increases postischemic seizure susceptibility in the neonatal brain. However, TrkB agonists demonstrate a nonlinear dose-response curve with higher doses reducing seizures."
+    briefly: "During prolonged neonatal seizures, excessive activation of the BDNF receptor kinase, TrkB, is associated with the development of refractory seizures. Using a chemical-genetic mouse model, we found that TrkB activation increases postischemic seizure susceptibility in the neonatal brain. However, TrkB agonists exhibit a nonlinear dose-response curve with higher doses actually reducing seizures."
     highlight: false
