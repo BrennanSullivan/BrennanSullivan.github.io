@@ -17,7 +17,7 @@
           <br><i>{{ paper.journal }}</i> {{ paper.volume }} ({{ paper.year }})
         </span>
         <div class="paper-content">
-          <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" class="paper-image">
+          <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" class="paper-image" id="gif-image">
           <p class="paper-brief"><i>Summary:</i> {{ paper.briefly }}</p><br/>
         </div>
       </li>
@@ -26,8 +26,22 @@
 </div>
 
 <script>
-  // Refresh the content every X milliseconds (e.g., every 5 seconds)
-  setInterval(function() {
-    location.reload();
-  }, 5000); // Adjust the refresh interval as needed
+  var gifImages = [
+    // Add URLs to your GIF images here
+    "url1.gif",
+    "url2.gif",
+    "url3.gif",
+    // Add more GIF image URLs as needed
+  ];
+
+  var gifIndex = 0;
+  var gifImageElement = document.getElementById("gif-image");
+
+  function changeGifImage() {
+    gifImageElement.src = gifImages[gifIndex];
+    gifIndex = (gifIndex + 1) % gifImages.length;
+  }
+
+  // Change the GIF image every X milliseconds (e.g., every 5 seconds)
+  setInterval(changeGifImage, 5000); // Adjust the interval and image URLs as needed
 </script>
