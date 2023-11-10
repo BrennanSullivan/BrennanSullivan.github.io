@@ -26,5 +26,5 @@
     url: https://insight.jci.org/articles/view/136007 
     image: Kipnis2020
     imagetype: png
-    briefly: "During prolonged neonatal seizures, excessive activation of the BDNF receptor kinase, TrkB, is associated with the development of refractory seizures. Using a chemical-genetic mouse model, we found that TrkB activation increases postischemic seizure susceptibility in the neonatal brain. However, TrkB agonists exhibit a nonlinear dose-response curve with higher doses actually reducing seizures."
+    briefly: "During prolonged neonatal seizures, excessive activation of the BDNF receptor kinase, TrkB, is associated with the development of refractory seizures. Using a chemical-genetic mouse model, we found that TrkB activation increases postischemic seizure susceptibility in the neonatal brain. However, unlike TrkB antagonists, TrkB agonists exhibit a nonlinear dose-response curve with higher doses actually reducing seizures."
     highlight: false
