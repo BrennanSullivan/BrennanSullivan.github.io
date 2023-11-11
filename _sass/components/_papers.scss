@@ -25,7 +25,7 @@
     clear: both;
     font-size: 1.3rem;
     text-decoration: none;
-    }
+}
     
 .paper-content {
     overflow: auto; /* Ensure content within the item doesn't overflow */
@@ -43,4 +43,28 @@
     float: left;
     clear: left; /* Clear left to ensure the content is not next to the image */
     width: calc(100% - 200px); /* Adjust the width based on the image size */
+}
+
+@media screen and (max-width: 600px) {
+  .paper-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .paper-image, .paper-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .paper-image img {
+    float: none; /* Override the float property */
+    width: 300px; /* Adjust this to your preferred size */
+    height: auto; /* This will maintain the image's aspect ratio */
+    max-width: 90%; /* This will prevent the image from causing horizontal scrolling */
+  }
+  .paper-content {
+    text-align: center;
+  }
+  .paper-brief {
+    width: 100%; /* Override the width property */
+  }
 }
