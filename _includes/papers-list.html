@@ -1,13 +1,27 @@
-<style>
-  @media screen and (max-width: 600px) {
-    .paper-item {
-      flex-direction: column;
+<head>
+  <style>
+    @media screen and (max-width: 600px) {
+      .paper-item {
+        flex-direction: column;
+        align-items: center;
+      }
+      .paper-image-container, .paper-content-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .paper-image-container img {
+        width: 300px; /* Adjust this to your preferred size */
+        height: auto; /* This will maintain the image's aspect ratio */
+        max-width: 90%; /* This will prevent the image from causing horizontal scrolling */
+      }
+      .paper-content-container {
+        text-align: center;
+        order: -1;
+      }
     }
-    .paper-image-container, .paper-content-container {
-      width: 100%;
-    }
-  }
   </style>
+</head>
   
   <div style="text-align: center; margin: 0 auto;">
     <ul class="resume-item-list papers-list" style="list-style-type: none; padding: 0; text-align: left;">
