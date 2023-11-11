@@ -6,14 +6,13 @@
         align-items: center;
       }
       .paper-image-container, .paper-content-container {
-        width: 100%;
+        width: 100%; /* Make the containers take up the full width on small screens */
         display: flex;
         justify-content: center;
       }
       .paper-image-container img {
-        width: 300px; /* Adjust this to your preferred size */
+        width: 100%; /* Make the image take up the full width of its container */
         height: auto; /* This will maintain the image's aspect ratio */
-        max-width: 90%; /* This will prevent the image from causing horizontal scrolling */
       }
       .paper-content-container {
         text-align: center;
