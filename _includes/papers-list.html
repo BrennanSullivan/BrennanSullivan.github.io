@@ -7,8 +7,7 @@
       }
       .paper-image-container, .paper-content-container {
         width: 100%; /* Make the containers take up the full width on small screens */
-        display: flex;
-        justify-content: center;
+        margin-right: 0; /* Remove right margin for better spacing */
       }
       .paper-image-container img {
         width: 100%; /* Make the image take up the full width of its container */
@@ -18,36 +17,45 @@
         text-align: center;
         order: -1;
       }
+      .paper-title-link {
+        font-size: 1.2rem; /* Adjust font size for better readability */
+        margin-bottom: 5px; /* Add a margin to separate title and authors */
+      }
+      .paper-content-container span {
+        font-size: 0.9rem; /* Adjust font size for better readability */
+        display: block; /* Display each line on a new line */
+        margin-bottom: 5px; /* Add a margin to separate lines */
+      }
     }
   </style>
 </head>
-  
-  <div style="text-align: center; margin: 0 auto;">
-    <ul class="resume-item-list papers-list" style="list-style-type: none; padding: 0; text-align: left;">
-      {% for paper in site.data.papers %}
-        <li class="paper-item" style="border: 1px solid #000; border-radius: 20px; padding: 20px; margin: 20px; display: flex; flex-direction: row; align-items: center;">
-          <div class="paper-image-container" style="width: 15%; margin-right: 20px;">
-            <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width="100%" class="paper-image">
+
+<div style="text-align: center; margin: 0 auto;">
+  <ul class="resume-item-list papers-list" style="list-style-type: none; padding: 0; text-align: left;">
+    {% for paper in site.data.papers %}
+      <li class="paper-item" style="border: 1px solid #000; border-radius: 20px; padding: 20px; margin: 20px; display: flex; flex-direction: row; align-items: center;">
+        <div class="paper-image-container" style="width: 100%; margin-right: 0;">
+          <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width="100%" class="paper-image">
+        </div>
+        <div class="paper-content-container" style="width: 100%; text-align: justify; margin-top: 10px;">
+          <a href="{{ paper.url }}" class="paper-title-link" style="text-decoration: none; font-size: smaller;"><strong>{{ paper.title }}</strong></a>
+          <span style="color: #000; font-size: smaller;">{{ paper.authors }}</span>
+          <span style="font-size: smaller;"><i>{{ paper.journal }}</i> {{ paper.volume }} ({{ paper.year }})</span>
+          <div class="paper-content">
+            <p class="paper-brief">{{ paper.briefly }}</p><br/>
           </div>
-          <div class="paper-content-container" style="width: 85%; text-align: justify;">
-            <a href="{{ paper.url }}" class="paper-title-link" style="text-decoration: none; font-size: smaller;"><strong>{{ paper.title }}</strong></a>
-            <span style="color: #000; font-size: smaller;">{{ paper.authors }}</span>
-            <span style="font-size: smaller;"><i>{{ paper.journal }}</i> {{ paper.volume }} ({{ paper.year }})</span>
-            <div class="paper-content">
-              <p class="paper-brief">{{ paper.briefly }}</p><br/>
-            </div>
-            <div style="display: flex; justify-content: flex-end;">
-              <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #FF0000; text-decoration: none;">pdf</a>
-              {% if paper.code %}
-                <a href="{{ paper.code }}" class="paper-link">[code]</a>
-              {% endif %}
-              {% if paper.demo %}
-                <a href="{{ paper.demo }}" class a="paper-link">[demo]</a>
-              {% endif %}
-            </div>
+          <div style="display: flex; justify-content: flex-end;">
+            <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #FF0000; text-decoration: none;">pdf</a>
+            {% if paper.code %}
+              <a href="{{ paper.code }}" class="paper-link">[code]</a>
+            {% endif %}
+            {% if paper.demo %}
+              <a href="{{ paper.demo }}" class a="paper-link">[demo]</a>
+            {% endif %}
           </div>
-        </li>
-      {% endfor %}
-    </ul>
-    <p>For a complete list of publications, please <a href="https://scholar.google.com/citations?user=4WC4CvsAAAAJ" target="_blank">see here</a>.</p>
-  </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  <p>For a complete list of publications, please <a href="https://scholar.google.com/citations?user=4WC4CvsAAAAJ" target="_blank">see here</a>.</p>
+</div>
