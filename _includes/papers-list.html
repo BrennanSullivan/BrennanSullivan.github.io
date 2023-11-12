@@ -71,7 +71,7 @@
             <p class="paper-brief">{{ paper.briefly }}</p>
           </div>
         </div>
-        <div class="paper-link-container">
+        <div class="paper-link-container" style="display: flex; justify-content: flex-end;">
           <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #FF0000; text-decoration: none;">pdf</a>
           {% if paper.code %}
             <a href="{{ paper.code }}" class="paper-link">[code]</a>
