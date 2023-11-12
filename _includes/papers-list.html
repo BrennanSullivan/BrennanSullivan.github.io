@@ -33,10 +33,15 @@
       }
       .paper-image-container {
         margin-right: 0;
+        display: flex; /* Added */
+        justify-content: center; /* Added */
       }
       .paper-image-container img {
         max-width: 50%; /* Limit the width of the image on small screens */
         max-height: 50%; /* Limit the height of the image on small screens */
+      }
+      .paper-content {
+        text-align: justify; /* Justify the text on small screens */
       }
     }
   </style>
