@@ -12,10 +12,12 @@
     .paper-image-brief-container {
       display: flex;
       flex-direction: row;
+      align-items: flex-start;
       width: 100%;
     }
     .paper-image-container {
       width: 20%;
+      margin-right: 20px;
     }
     .paper-content {
       width: 80%;
@@ -24,9 +26,13 @@
     @media screen and (max-width: 600px) {
       .paper-image-brief-container {
         flex-direction: column;
+        align-items: center;
       }
       .paper-image-container, .paper-content {
         width: 100%;
+      }
+      .paper-image-container {
+        margin-right: 0;
       }
     }
   </style>
