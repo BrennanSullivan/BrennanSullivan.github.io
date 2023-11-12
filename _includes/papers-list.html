@@ -1,30 +1,40 @@
 <head>
   <style>
+    .paper-item {
+      border: 1px solid #000;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .paper-image-container {
+      width: 100%;
+      margin-right: 0;
+    }
+    .paper-content-container {
+      width: 100%;
+      text-align: justify;
+      margin-top: 10px;
+    }
+
     @media screen and (max-width: 600px) {
       .paper-item {
         flex-direction: column;
         align-items: center;
       }
-      .paper-image-container, .paper-content-container {
-        width: 100%; /* Make the containers take up the full width on small screens */
-        margin-right: 0; /* Remove right margin for better spacing */
+      .paper-image-container {
+        width: 0%;
+        order: 3;
       }
       .paper-image-container img {
-        width: 100%; /* Make the image take up the full width of its container */
-        height: auto; /* This will maintain the image's aspect ratio */
+        display: none;
       }
       .paper-content-container {
+        width: 100%;
         text-align: center;
-        order: -1;
-      }
-      .paper-title-link {
-        font-size: 1.2rem; /* Adjust font size for better readability */
-        margin-bottom: 5px; /* Add a margin to separate title and authors */
-      }
-      .paper-content-container span {
-        font-size: 0.9rem; /* Adjust font size for better readability */
-        display: block; /* Display each line on a new line */
-        margin-bottom: 5px; /* Add a margin to separate lines */
+        order: 1;
       }
     }
   </style>
