@@ -59,9 +59,7 @@
       <li class="paper-item">
         <a href="{{ paper.url }}" class="paper-title-link" style="text-decoration: none; font-size: smaller;"><strong>{{ paper.title }}</strong></a>
         <div style="display: flex; align-items: baseline;">
-          <span style="color: #000; font-size: smaller; width: 100%; text-align: justify;">{{ paper.authors }}</span>
-          <span style="font-size: smaller;"><i>{{ paper.journal }}</i></span>
-          <span style="font-size: smaller;">{{ paper.volume }} ({{ paper.year }})</span>
+          <span style="color: #000; font-size: smaller; width: 100%; text-align: justify;">{{ paper.authors }}, <i>{{ paper.journal }}</i>, {{ paper.year }}</span>
         </div>
         <div class="paper-image-brief-container">
           <div class="paper-image-container">
