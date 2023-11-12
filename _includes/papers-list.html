@@ -57,10 +57,8 @@
   <ul class="resume-item-list papers-list" style="list-style-type: none; padding: 0; text-align: left;">
     {% for paper in site.data.papers %}
       <li class="paper-item">
-        <div style="display: flex; align-items: baseline;">
-          <a href="{{ paper.url }}" class="paper-title-link" style="text-decoration: none; font-size: smaller;"><strong>{{ paper.title }}</strong></a>
-          <span style="color: #000; font-size: smaller; width: 100%; text-align: justify;">{{ paper.authors }}</span>
-        </div>
+        <a href="{{ paper.url }}" class="paper-title-link" style="text-decoration: none; font-size: smaller;"><strong>{{ paper.title }}</strong></a>
+        <span style="color: #000; font-size: smaller; width: 100%; text-align: justify;">{{ paper.authors }}</span>
         <div style="display: flex; align-items: baseline;">
           <span style="font-size: smaller;"><i>{{ paper.journal }}</i></span>
           <span style="font-size: smaller;">{{ paper.volume }} ({{ paper.year }})</span>
@@ -73,7 +71,7 @@
             <p class="paper-brief">{{ paper.briefly }}</p>
           </div>
         </div>
-        <div class="paper-link-container">
+        <div class="paper-link-container" style="justify-content: flex-end;">
           <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #FF0000; text-decoration: none;">pdf</a>
           {% if paper.code %}
             <a href="{{ paper.code }}" class="paper-link">[code]</a>
