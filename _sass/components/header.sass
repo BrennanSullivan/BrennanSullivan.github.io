@@ -30,11 +30,12 @@
 
 .description-typing
     overflow: hidden
-    border-right: .15em solid orange
+    border-right: .15em solid black  // change color to black
     white-space: nowrap
     margin: 0 auto
     letter-spacing: .15em
     animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite
+    max-width: fit-content  // add this line to adjust the width to the length of the text
 
 @keyframes typing
     from 
@@ -46,4 +47,4 @@
     from, to 
         border-color: transparent
     50% 
-        border-color: orange
+        border-color: black  // change color to black
