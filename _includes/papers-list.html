@@ -66,11 +66,11 @@
             <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width="100%" class="paper-image">
           </div>
           <div class="paper-content">
-            <p class="paper-brief">{{ paper.briefly }}</p>
+            <p class="paper-brief" style="text-align: justify;">{{ paper.briefly }}</p>
           </div>
         </div>
         <div class="paper-link-container" style="display: flex; justify-content: flex-end;">
-          <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #FF0000; text-decoration: none;">pdf</a>
+          <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #FF0000; text-decoration: none; margin-left: auto;">pdf</a>
           {% if paper.code %}
             <a href="{{ paper.code }}" class="paper-link">[code]</a>
           {% endif %}
