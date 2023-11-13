@@ -70,7 +70,9 @@
           </div>
         </div>
         <div class="paper-link-container" style="display: flex; justify-content: flex-end;">
-          <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #FF0000; text-decoration: none; margin-left: auto;">pdf</a>
+          <div style="margin-left: auto;">
+            <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #FF0000; text-decoration: none;">PDF</a>
+          </div>
           {% if paper.code %}
             <a href="{{ paper.code }}" class="paper-link">[code]</a>
           {% endif %}
