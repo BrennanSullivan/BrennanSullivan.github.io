@@ -1,6 +1,6 @@
 -
     title: "Targeting ischemia-induced KCC2 hypofunction rescues refractory neonatal seizures and mitigates epileptogenesis in a mouse model."
-    authors: "Sullivan B.J, Kipnis P.A., Carter B.M., Shao L., Kadam S.D." 
+    authors: "<strong> Sullivan B.J </strong>, Kipnis P.A., Carter B.M., Shao L., Kadam S.D." 
     journal: "Science Signaling"
     year: 2021
     url: https://www.science.org/doi/full/10.1126/scisignal.abg2648
@@ -17,10 +17,10 @@
     image: Sullivan2020
     imagetype: gif
     briefly: " Loss-of-function SYNGAP1 mutations cause a neurodevelopmental disorder characterized by intellectual disability and epilepsy. SYNGAP1 is crucial for the formation and regulation of dendritic spines. In our study, we established the sleep dysfunction and epilepsy phenotype in a mouse model. The administration of a low dose of an AMPA receptor antagonist, perampanel, reduced seizures and restored cortical gamma activity. "
-    highlight: false
+    highlight: true
 - 
     title: "TrkB agonists prevent post-ischemic BDNF-TrkB mediated emergence of refractory neonatal seizures in CD-1 pups."
-    authors: "Kipnis P.A.<sup>*</sup>, Sullivan B.J.<sup>*</sup>, Carter B.M., Kadam S.D."
+    authors: "Kipnis P.A.<sup>*</sup>, <strong>Sullivan B.J.</strong><sup>*</sup>, Carter B.M., Kadam S.D."
     journal: "JCI-Insight"
     year: 2020
     url: https://insight.jci.org/articles/view/136007 
