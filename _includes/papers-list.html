@@ -1,17 +1,17 @@
 <head>
   <style>
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 425px) {
       .paper-item {
         flex-direction: column;
         align-items: center;
       }
       .paper-image-container, .paper-content-container {
-        width: 100%; /* Make the containers take up the full width on small screens */
-        margin-right: 0; /* Remove right margin for better spacing */
+        width: 100%;
+        margin-right: 0;
       }
       .paper-image-container img {
-        width: 100%; /* Make the image take up the full width of its container */
-        height: auto; /* This will maintain the image's aspect ratio */
+        width: 100%;
+        height: auto;
       }
       .paper-content-container {
         text-align: center;
@@ -25,11 +25,11 @@
   <ul class="resume-item-list papers-list" style="list-style-type: none; padding: 0; text-align: left;">
     {% for paper in site.data.papers %}
       <li class="paper-item" style="border: 1px solid #000; border-radius: 20px; padding: 20px; margin: 20px; display: flex; flex-direction: row; align-items: center;">
-        <div class="paper-image-container" style="width: 100%; margin-right: 0;">
+        <div class="paper-image-container" style="width: 15%; margin-right: 0;">
           <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width="100%" class="paper-image">
         </div>
-        <div class="paper-content-container" style="width: 100%; text-align: justify; margin-top: 10px;">
-          <a href="{{ paper.url }}" class="paper-title-link" style="text-decoration: none; font-size: smaller;"><strong>{{ paper.title }}</strong></a>
+        <div class="paper-content-container" style="width: 85%; text-align: justify; margin-top: 10px;">
+          <a href="{{ paper.url }}" class="paper-title-link" style="text-decoration: none; font-size: smaller; width: 100%; display: block;"><strong>{{ paper.title }}</strong></a>
           <span style="color: #000; font-size: smaller;">{{ paper.authors }}</span>
           <span style="font-size: smaller;"><i>{{ paper.journal }}</i> {{ paper.volume }} ({{ paper.year }})</span>
           <div class="paper-content">
