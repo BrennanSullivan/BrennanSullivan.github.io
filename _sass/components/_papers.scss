@@ -1,71 +1,55 @@
-// Styles for the list of papers
-.papers-list {
-  list-style: none; // Removes the default list bullet points
-  margin-left: 0; // Removes the left margin
-  padding-left: 0; // Removes the left padding
-}
-
 // Styles for each individual paper item
 .paper-item {
-  margin-top: 1.5em; // Adds a top margin
-  margin-left: 0; // Removes the left margin
-  padding: 1em; // Adds padding around the item
-  border-radius: 10px; // Rounds the corners of the border
-  border: 1px solid black; // Adds a border
-  overflow: auto; // Ensures the item's content is contained within its box
-  width: 80%; // Sets the item's width to 80% of its parent container
-  max-width: 500px; // Limits the maximum width to 500px
-  display: flex; // Makes the item a flex container
-  flex-direction: column; // Stacks the item's content vertically
-  align-items: center; // Centers the item's content horizontally
+  margin-top: 1.5em;
+  margin-left: 0;
+  padding: 1em;
+  border-radius: 10px;
+  border: 1px solid black;
+  overflow: auto;
+  width: 80%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-// Styles for the paper title link
-.paper-title-link {
-  font-size: small; // Makes the font size small
-  text-decoration: none; // Removes the default link underline
-  text-align: center; // Centers the text
-  display: block; // Makes the link a block element
-}
-
-// Styles for the container of the paper image and brief
-.paper-image-brief-container {
-  display: flex; // Makes the container a flex container
-  justify-content: space-between; // Spaces out the container's content evenly
-  width: 80%; // Sets the container's width to 80% of its parent container
+// Styles for the paper content container
+.paper-content-container {
+  width: 80%;
+  margin-top: 1em;
 }
 
 // Styles for the paper image container
 .paper-image-container {
-  width: 20%; // Sets the container's width to 20% of its parent container
-  max-width: 200px; // Limits the maximum width to 200px
+  width: 20%;
+  max-width: 100px;
 }
 
 // Styles for the paper image
 .paper-image {
-  width: 100%; // Sets the image's width to 100% of its parent container
-  height: auto; // Keeps the image's aspect ratio
+  width: 100%;
+  height: auto;
 }
 
 // Styles for the paper content
 .paper-content {
-  width: 80%; // Sets the content's width to 80% of its parent container
-  margin-top: 1em; // Adds top margin to separate content from image
+  width: 100%;
 }
 
 // Styles for the paper brief
 .paper-brief {
-  text-align: justify; // Justifies the text
+  text-align: justify;
 }
 
 @media screen and (max-width: 425px) {
   .paper-item {
-    width: 100%; // Adjust the width to take up the full width on smaller screens
+    width: 100%;
   }
+  .paper-content-container,
   .paper-image-container,
   .paper-content {
     width: 100%;
-    max-width: none; // Remove the max-width on smaller screens
+    max-width: none;
   }
   .paper-image {
     width: 100%;

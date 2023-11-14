@@ -10,8 +10,10 @@
           <div class="paper-image-container">
             <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" class="paper-image">
           </div>
-          <div class="paper-content">
-            <p class="paper-brief">{{ paper.briefly }}</p>
+          <div class="paper-content-container"> <!-- Add a container for paper content -->
+            <div class="paper-content">
+              <p class="paper-brief">{{ paper.briefly }}</p>
+            </div>
           </div>
         </div>
         <div class="paper-link-container">
