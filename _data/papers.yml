@@ -1,6 +1,6 @@
 -
     title: "Superior colliculus bidirectionally modulates choice activity in frontal cortex"
-    authors: "Thomas A. <sup> *</sup>, Yang W. <sup>*</sup>, Wang C., Tipparaju S.L., Chen G., <strong> Sullivan B.J. </strong>, Swiekatowski K., Tatam M., Gerfen C., Li N." 
+    authors: "Thomas A.<sup>*</sup>, Yang W.<sup>*</sup>, Wang C., Tipparaju S.L., Chen G.,<strong>Sullivan B.J.</strong>, Swiekatowski K., Tatam M., Gerfen C., Li N." 
     journal: "Nature Communications"
     year: 2023
     url: https://www.nature.com/articles/s41467-023-43252-9#:~:text=Here%20we%20report%20that%20SC,entrant%20loop%20via%20the%20thalamus.
@@ -10,7 +10,7 @@
     highlight: false
 -
     title: "Targeting ischemia-induced KCC2 hypofunction rescues refractory neonatal seizures and mitigates epileptogenesis in a mouse model."
-    authors: "<strong> Sullivan B.J. </strong>, Kipnis P.A., Carter B.M., Shao L., Kadam S.D." 
+    authors: "<strong>Sullivan B.J.</strong>, Kipnis P.A., Carter B.M., Shao L., Kadam S.D." 
     journal: "Science Signaling"
     year: 2021
     url: https://www.science.org/doi/full/10.1126/scisignal.abg2648
@@ -20,17 +20,17 @@
     highlight: false
 -
     title: "Low-Dose Perampanel Rescues Cortical Gamma Dysregulation Associated With Parvalbumin Interneuron GluA2 Upregulation in Epileptic Syngap1<sup>+</sup><sup>/</sup><sup>−</sup> Mice."
-    authors: "<strong> Sullivan B.J. </strong>, Ammanuel S., Kipnis P.A., Araki Y., Huganir R.L., Kadam S.D."
+    authors: "<strong>Sullivan B.J.</strong>, Ammanuel S., Kipnis P.A., Araki Y., Huganir R.L., Kadam S.D."
     journal: "Biological Psychiatry"
     year: 2020
     url: https://www.biologicalpsychiatryjournal.com/article/S0006-3223(20)30002-0/fulltext
     image: Sullivan2020
     imagetype: gif
-    briefly: " Loss-of-function SYNGAP1 mutations cause a neurodevelopmental disorder characterized by intellectual disability and epilepsy. SYNGAP1 is crucial for the formation and regulation of dendritic spines. In our study, we established the sleep dysfunction and epilepsy phenotype in a mouse model. The administration of a low dose of an AMPA receptor antagonist, perampanel, reduced seizures and restored cortical gamma activity. "
+    briefly: "Loss-of-function SYNGAP1 mutations cause a neurodevelopmental disorder characterized by intellectual disability and epilepsy. SYNGAP1 is crucial for the formation and regulation of dendritic spines. In our study, we established the sleep dysfunction and epilepsy phenotype in a mouse model. The administration of a low dose of an AMPA receptor antagonist, perampanel, reduced seizures and restored cortical gamma activity. "
     highlight: false
 - 
     title: "Transcranial photoacoustic imaging of NMDA-evoked focal circuit dynamics in rat hippocampus."
-    authors: "Kang J., Kadam S.D., Elmore J.S., <strong> Sullivan B.J. </strong><sup>*</sup>, Valentine H.<sup>*</sup>, Malla A.P., Harraz M.M., Rahmim A., Kang J.U., Loew L.M., Baumann M.H., Grace A.A., Gjedde A., Boctor E.M, Wong D.F."
+    authors: "Kang J., Kadam S.D., Elmore J.S.,<strong>Sullivan B.J.</strong><sup>*</sup>, Valentine H.<sup>*</sup>, Malla A.P., Harraz M.M., Rahmim A., Kang J.U., Loew L.M., Baumann M.H., Grace A.A., Gjedde A., Boctor E.M, Wong D.F."
     journal: "Journal of Neural Engineering"
     year: 2020
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145727/
@@ -40,7 +40,7 @@
     highlight: false
 -
     title: "TrkB agonists prevent post-ischemic BDNF-TrkB mediated emergence of refractory neonatal seizures in CD-1 pups."
-    authors: "Kipnis P.A.<sup>*</sup>, <strong> Sullivan B.J. </strong><sup>*</sup>, Carter B.M., Kadam S.D."
+    authors: "Kipnis P.A.<sup>*</sup>, <strong>Sullivan B.J.</strong><sup>*</sup>, Carter B.M., Kadam S.D."
     journal: "JCI-Insight"
     year: 2020
     url: https://insight.jci.org/articles/view/136007 
@@ -50,7 +50,7 @@
     highlight: false
 - 
     title: "Dose-dependent reversal of KCC2 hypofunction and phenobarbital-resistant neonatal seizures by ANA12."
-    authors: "Carter B.M., <strong> Sullivan B.J. </strong>, Landers J.R., Kadam S.D."
+    authors: "Carter B.M., <strong>Sullivan B.J.</strong>, Landers J.R., Kadam S.D."
     journal: Scientific Reports
     year: 2018
     url: https://www.nature.com/articles/s41598-018-30486-7

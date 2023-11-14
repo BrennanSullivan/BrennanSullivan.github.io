@@ -28,7 +28,7 @@
         <div class="paper-content-container" style="width: 100%; text-align: justify; margin-top: 10px;">
           <a href="{{ paper.url }}" class="paper-title-link" style="text-decoration: none; font-size: smaller; display: block; text-align: center;"><strong>{{ paper.title }}</strong></a>
           <span style="color: #000; font-size: smaller; display: block; text-align: center;">{{ paper.authors }}</span>
-          <span style="font-size: smaller; display: block; text-align: center;">{{ paper.volume }} ({{ paper.year }})</span>
+          <span style="font-size: smaller; display: block; text-align: center;">{{ paper.volume }} ({{ paper.year }}{{ ", " if paper.journal }}{{ paper.journal }})</span>
           <div class="paper-image-container" style="width: 100%; margin-top: 10px;">
             <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width="200" height="auto" class="paper-image" style="display: block; margin: 0 auto;">
           </div>
@@ -41,7 +41,7 @@
               <a href="{{ paper.code }}" class="paper-link">[code]</a>
             {% endif %}
             {% if paper.demo %}
-              <a href="{{ paper.demo }}" class a="paper-link">[demo]</a>
+              <a href="{{ paper.demo }}" class="paper-link">[demo]</a>
             {% endif %}
           </div>
         </div>
