@@ -7,7 +7,7 @@
     image: Sullivan2021
     imagetype: png
     briefly: "Neonatal seizures are often associated with resistance to antiseizure drugs. We found that enhancing KCC2 activity reduced seizures in a neonatal mouse model. KCC2 abundance and phosphorylation were necessary for these effects. These findings demonstrate the potential of KCC2 as a target for neonatal seizures."
-    highlight: true
+    highlight: false
 -
     title: "Low-Dose Perampanel Rescues Cortical Gamma Dysregulation Associated With Parvalbumin Interneuron GluA2 Upregulation in Epileptic Syngap1<sup>+</sup><sup>/</sup><sup>−</sup> Mice."
     authors: "<strong> Sullivan B.J. </strong>, Ammanuel S., Kipnis P.A., Araki Y., Huganir R.L., Kadam S.D."
@@ -17,7 +17,7 @@
     image: Sullivan2020
     imagetype: gif
     briefly: " Loss-of-function SYNGAP1 mutations cause a neurodevelopmental disorder characterized by intellectual disability and epilepsy. SYNGAP1 is crucial for the formation and regulation of dendritic spines. In our study, we established the sleep dysfunction and epilepsy phenotype in a mouse model. The administration of a low dose of an AMPA receptor antagonist, perampanel, reduced seizures and restored cortical gamma activity. "
-    highlight: true
+    highlight: false
 - 
     title: "Transcranial photoacoustic imaging of NMDA-evoked focal circuit dynamics in rat hippocampus."
     authors: "Kang J., Kadam S.D., Elmore J.S., <strong>Sullivan B.J.</strong><sup>*</sup>, Valentine H.<sup>*</sup>, Malla A.P., Harraz M.M., Rahmim A., Kang J.U., Loew L.M., Baumann M.H., Grace A.A., Gjedde A., Boctor E.M, Wong D.F."
