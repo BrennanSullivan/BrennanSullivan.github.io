@@ -28,7 +28,8 @@
 .paper-image-brief-container {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 20%;
+  max-width: 200px;
 }
 
 .paper-image-container {
