@@ -29,9 +29,9 @@
           <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width="100%" class="paper-image">
         </div>
         <div class="paper-content-container" style="width: 85%; text-align: justify; margin-top: 10px;">
-          <a href="{{ paper.url }}" class="paper-title-link" style="text-decoration: none; font-size: smaller; width: 100%; display: block; text-align: center;"><strong>{{ paper.title }}</strong></a>
-          <span style="color: #000; font-size: smaller; width: 100%; display: block; text-align: center;">{{ paper.authors }}</span>
-          <span style="font-size: smaller; width: 100%; display: block; text-align: center;"><i>{{ paper.journal }}</i> {{ paper.volume }} ({{ paper.year }})</span>
+          <a href="{{ paper.url }}" class="paper-title-link" style="text-decoration: none; font-size: smaller; display: block; text-align: center;"><strong>{{ paper.title }}</strong></a>
+          <span style="color: #000; font-size: smaller; display: block; text-align: center;">{{ paper.authors }}</span>
+          <span style="font-size: smaller; display: block; text-align: center;"><i>{{ paper.journal }}</i> {{ paper.volume }} ({{ paper.year }})</span>
           <div class="paper-content" style="margin-top: 5px;">
             <p class="paper-brief">{{ paper.briefly }}</p><br/>
           </div>
