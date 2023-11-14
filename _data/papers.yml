@@ -1,6 +1,6 @@
 -
     title: "Targeting ischemia-induced KCC2 hypofunction rescues refractory neonatal seizures and mitigates epileptogenesis in a mouse model."
-    authors: "<strong> Sullivan B.J </strong>, Kipnis P.A., Carter B.M., Shao L., Kadam S.D." 
+    authors: "<strong> Sullivan B.J. </strong>, Kipnis P.A., Carter B.M., Shao L., Kadam S.D." 
     journal: "Science Signaling"
     year: 2021
     url: https://www.science.org/doi/full/10.1126/scisignal.abg2648
@@ -20,7 +20,7 @@
     highlight: false
 - 
     title: "Transcranial photoacoustic imaging of NMDA-evoked focal circuit dynamics in rat hippocampus."
-    authors: "Kang J., Kadam S.D., Elmore J.S., <strong>Sullivan B.J.</strong><sup>*</sup>, Valentine H.<sup>*</sup>, Malla A.P., Harraz M.M., Rahmim A., Kang J.U., Loew L.M., Baumann M.H., Grace A.A., Gjedde A., Boctor E.M, Wong D.F."
+    authors: "Kang J., Kadam S.D., Elmore J.S., <strong> Sullivan B.J. </strong><sup>*</sup>, Valentine H.<sup>*</sup>, Malla A.P., Harraz M.M., Rahmim A., Kang J.U., Loew L.M., Baumann M.H., Grace A.A., Gjedde A., Boctor E.M, Wong D.F."
     journal: "Journal of Neural Engineering"
     year: 2020
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145727/
@@ -30,7 +30,7 @@
     highlight: false
 -
     title: "TrkB agonists prevent post-ischemic BDNF-TrkB mediated emergence of refractory neonatal seizures in CD-1 pups."
-    authors: "Kipnis P.A.<sup>*</sup>, <strong>Sullivan B.J.</strong><sup>*</sup>, Carter B.M., Kadam S.D."
+    authors: "Kipnis P.A.<sup>*</sup>, <strong> Sullivan B.J. </strong><sup>*</sup>, Carter B.M., Kadam S.D."
     journal: "JCI-Insight"
     year: 2020
     url: https://insight.jci.org/articles/view/136007 
@@ -39,9 +39,8 @@
     briefly: "During prolonged neonatal seizures, excessive activation of the BDNF receptor kinase, TrkB, is associated with the development of refractory seizures. Using a chemical-genetic mouse model, we found that TrkB activation increases postischemic seizure susceptibility in the neonatal brain. However, unlike TrkB antagonists, TrkB agonists exhibit a nonlinear dose-response curve with higher doses actually reducing seizures."
     highlight: false
 - 
-
     title: "Dose-dependent reversal of KCC2 hypofunction and phenobarbital-resistant neonatal seizures by ANA12."
-    authors: "Carter B.M., <strong>Sullivan B.J.</strong>, Landers J.R., Kadam S.D."
+    authors: "Carter B.M., <strong> Sullivan B.J. </strong>, Landers J.R., Kadam S.D."
     journal: Scientific Reports
     year: 2018
     url: https://www.nature.com/articles/s41598-018-30486-7
