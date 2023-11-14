@@ -1,71 +1,88 @@
 .papers-list {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .paper-item {
-    margin-top: 1.5em;
-    margin-left: 0;
-    padding: 1em;
-    border-radius: 10px;
-    border: 1px solid black; /* Fixed the border style */
-    overflow: auto; /* Ensure content within the item doesn't overflow */
-    max-width: 600px
+  margin-top: 1.5em;
+  margin-left: 0;
+  padding: 1em;
+  border-radius: 10px;
+  border: 1px solid black; /* Fixed the border style */
+  overflow: auto; /* Ensure content within the item doesn't overflow */
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .paper-link {
-    font-size: small;
-    text-decoration: none;
-    border-bottom: dotted 1px black;
+  font-size: small;
+  text-decoration: none;
+  border-bottom: dotted 1px black;
 }
 
 .paper-title {
-    font-family: sans-serif;
-    font-weight: bold;
-    clear: both;
-    font-size: 1.3rem;
-    text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  clear: both;
+  font-size: 1.3rem;
+  text-decoration: none;
 }
-    
+  
 .paper-content {
-    overflow: auto; /* Ensure content within the item doesn't overflow */
-    padding-top: 1em;
+  overflow: auto; /* Ensure content within the item doesn't overflow */
+  padding-top: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .paper-image {
-    margin-right: 1em;
-    float: left;
-    padding-bottom: 1em;
+  margin-right: 1em;
+  float: left;
+  padding-bottom: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.paper-image img {
+  float: none; /* Override the float property */
+  width: 100%; /* Adjust this to your preferred size */
+  height: auto; /* This will maintain the image's aspect ratio */
+  max-width: 300px; /* This will prevent the image from causing horizontal scrolling */
 }
 
 .paper-brief {
-    text-align: justify;
-    float: left;
-    clear: left; /* Clear left to ensure the content is not next to the image */
-    width: calc(100% - 200px); /* Adjust the width based on the image size */
+  text-align: justify;
+  float: left;
+  clear: left; /* Clear left to ensure the content is not next to the image */
+  width: 100%; /* Override the width property */
 }
 
 @media screen and (max-width: 600px) {
-  .paper-item {
-    flex-direction: column;
-    align-items: center;
-  }
-  .paper-image, .paper-content {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .paper-image img {
-    float: none; /* Override the float property */
-    width: 300px; /* Adjust this to your preferred size */
-    height: auto; /* This will maintain the image's aspect ratio */
-    max-width: 90%; /* This will prevent the image from causing horizontal scrolling */
-  }
-  .paper-content {
-    text-align: center;
-  }
-  .paper-brief {
-    width: 100%; /* Override the width property */
-  }
+.paper-item {
+  flex-direction: column;
+  align-items: center;
+}
+.paper-image, .paper-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.paper-image img {
+  float: none; /* Override the float property */
+  width: 100%; /* Adjust this to your preferred size */
+  height: auto; /* This will maintain the image's aspect ratio */
+  max-width: 300px; /* This will prevent the image from causing horizontal scrolling */
+}
+.paper-content {
+  text-align: center;
+}
+.paper-brief {
+  width: 100%; /* Override the width property */
+}
 }

@@ -1,60 +1,3 @@
-<head>
-  <style>
-    .paper-item {
-      border: 1px solid #000;
-      border-radius: 20px;
-      padding: 20px;
-      margin: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width:100%;
-      box-sizing: border-box;
-    }
-    .paper-image-brief-container {
-      display: flex;
-      flex-direction: row;
-      align-items: center; /* Aligns items vertically in the center */
-      width: 100%;
-    }
-    .paper-image-container {
-      width: 20%;
-      margin-right: 20px;
-    }
-    .paper-content {
-      width: 80%;
-    }
-    .paper-link-container {
-      display: flex;
-      justify-content: flex-end;
-    }
-
-    @media screen and (max-width: 600px) {
-      .paper-image-brief-container {
-        flex-direction: column;
-        align-items: center;
-      }
-      .paper-image-container, .paper-content {
-        width: 100%;
-      }
-      .paper-image-container {
-        margin-right: 0;
-        display: flex; /* Added */
-        justify-content: center; /* Added */
-      }
-      .paper-image-container img {
-        max-width: 50%; /* Limit the width of the image on small screens */
-        max-height: 50%; /* Limit the height of the image on small screens */
-      }
-      .paper-content {
-        text-align: justify; /* Justify the text on small screens */
-      }
-      .paper-link-container {
-        justify-content: flex-end;
-      }
-    }
-  </style>
-</head>
 <div style="text-align: center; margin: 0 auto;">
   <ul class="resume-item-list papers-list" style="list-style-type: none; padding: 0; text-align: center;">
     {% for paper in site.data.papers %}
@@ -73,16 +16,15 @@
         </div>
         <div class="paper-link-container" style="display: flex; justify-content: flex-end;">
           <div>
-              <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #FF0000; text-decoration: none;">PDF</a>
+            <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #FF0000; text-decoration: none;">PDF</a>
           </div>
-      </div>
-          {% if paper.code %}
-            <a href="{{ paper.code }}" class="paper-link">[code]</a>
-          {% endif %}
-          {% if paper.demo %}
-            <a href="{{ paper.demo }}" class="paper-link">[demo]</a>
-          {% endif %}
         </div>
+        {% if paper.code %}
+          <a href="{{ paper.code }}" class="paper-link">[code]</a>
+        {% endif %}
+        {% if paper.demo %}
+          <a href="{{ paper.demo }}" class="paper-link">[demo]</a>
+        {% endif %}
       </li>
     {% endfor %}
     <li style="text-align: center; list-style-type: none;">
