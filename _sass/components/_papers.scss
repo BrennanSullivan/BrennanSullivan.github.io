@@ -11,7 +11,7 @@
   border-radius: 10px;
   border: 1px solid black; /* Fixed the border style */
   overflow: auto; /* Ensure content within the item doesn't overflow */
-  width: 70%;
+  max-width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
