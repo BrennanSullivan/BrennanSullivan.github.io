@@ -1,22 +1,22 @@
-<div style="text-align: center; margin: 0 auto;">
-  <ul class="resume-item-list papers-list" style="list-style-type: none; padding: 0; text-align: center;">
+<div>
+  <ul class="resume-item-list papers-list">
     {% for paper in site.data.papers %}
       <li class="paper-item">
-        <a href="{{ paper.url }}" class="paper-title-link" style="text-decoration: none; font-size: smaller; display: block; text-align: center;"><strong>{{ paper.title }}</strong></a>
-        <div style="display: flex; align-items: baseline;">
-          <span style="color: #000; font-size: smaller; width: 100%; text-align: justify;">{{ paper.authors }}, <i>{{ paper.journal }}</i>, {{ paper.year }}</span>
+        <a href="{{ paper.url }}" class="paper-title-link"><strong>{{ paper.title }}</strong></a>
+        <div>
+          <span>{{ paper.authors }}, <i>{{ paper.journal }}</i>, {{ paper.year }}</span>
         </div>
         <div class="paper-image-brief-container">
           <div class="paper-image-container">
-            <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width="100%" class="paper-image">
+            <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" class="paper-image">
           </div>
           <div class="paper-content">
-            <p class="paper-brief" style="text-align: justify;">{{ paper.briefly }}</p>
+            <p class="paper-brief">{{ paper.briefly }}</p>
           </div>
         </div>
-        <div class="paper-link-container" style="display: flex; justify-content: flex-end;">
+        <div class="paper-link-container">
           <div>
-            <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #FF0000; text-decoration: none;">PDF</a>
+            <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link">PDF</a>
           </div>
         </div>
         {% if paper.code %}
@@ -27,7 +27,7 @@
         {% endif %}
       </li>
     {% endfor %}
-    <li style="text-align: center; list-style-type: none;">
+    <li>
       For the full list of papers, please <a href="https://scholar.google.com/citations?user=4WC4CvsAAAAJ&hl=en" target="_blank">see here</a>.
     </li>
   </ul>
