@@ -33,13 +33,13 @@
           <a href="{{ paper.url }}" class="paper-title-link" style="text-decoration: none; font-size: smaller; display: block; text-align: center;"><strong>{{ paper.title }}</strong></a>
           <span style="color: #000; font-size: smaller; display: block; text-align: center;">{{ paper.authors }}</span>
           <span style="font-size: smaller; display: block; text-align: center;">{{ paper.volume }} {% if paper.journal %}{{ paper.journal }} {% endif %}({{ paper.year }})</span>
-          <div class="paper-image-container" style="width: 100%; margin-top: 1px;">
+          <div class="paper-image-container" style="width: 100%; margin-top: 5px;">
             <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width="200" height="auto" class="paper-image" style="display: block; margin: 0 auto;">
           </div>
           <div class="paper-content" style="margin-top: 1px;">
             <p class="paper-brief">{{ paper.briefly }}</p>
           </div>
-          <div style="display: flex; justify-content: flex-end; margin-top: 1px;">
+          <div style="display: flex; justify-content: flex-end; margin-top: 0px;">
             <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #FF0000; text-decoration: none;">PDF</a>
             {% if paper.code %}
               <a href="{{ paper.code }}" class="paper-link">[code]</a>
