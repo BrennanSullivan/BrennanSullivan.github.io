@@ -1,36 +1,52 @@
-<div>
-  <ul class="resume-item-list papers-list">
+<head>
+  <style>
+    @media screen and (max-width: 600px) {
+      .paper-item {
+        flex-direction: column;
+        align-items: center;
+      }
+      .paper-image-container, .paper-content-container {
+        width: 100%; /* Make the containers take up the full width on small screens */
+        margin-right: 0; /* Remove right margin for better spacing */
+      }
+      .paper-image-container img {
+        width: 100%; /* Make the image take up the full width of its container */
+        height: auto; /* This will maintain the image's aspect ratio */
+      }
+      .paper-content-container {
+        text-align: center;
+        order: -1;
+      }
+    }
+  </style>
+</head>
+
+<div style="text-align: center; margin: 0 auto;">
+  <ul class="resume-item-list papers-list" style="list-style-type: none; padding: 0; text-align: left;">
     {% for paper in site.data.papers %}
-      <li class="paper-item">
-        <a href="{{ paper.url }}" class="paper-title-link"><strong>{{ paper.title }}</strong></a>
-        <div>
-          <span>{{ paper.authors }}, <i>{{ paper.journal }}</i>, {{ paper.year }}</span>
+      <li class="paper-item" style="border: 1px solid #000; border-radius: 20px; padding: 20px; margin: 20px; display: flex; flex-direction: row; align-items: center;">
+        <div class="paper-image-container" style="width: 100%; margin-right: 0;">
+          <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" width="100%" class="paper-image">
         </div>
-        <div class="paper-image-brief-container">
-          <div class="paper-image-container">
-            <img src="static/images/papers/{{ paper.image }}.{{ paper.imagetype }}" class="paper-image">
+        <div class="paper-content-container" style="width: 100%; text-align: justify; margin-top: 10px;">
+          <a href="{{ paper.url }}" class="paper-title-link" style="text-decoration: none; font-size: smaller;"><strong>{{ paper.title }}</strong></a>
+          <span style="color: #000; font-size: smaller;">{{ paper.authors }}</span>
+          <span style="font-size: smaller;"><i>{{ paper.journal }}</i> {{ paper.volume }} ({{ paper.year }})</span>
+          <div class="paper-content">
+            <p class="paper-brief">{{ paper.briefly }}</p><br/>
           </div>
-          <div class="paper-content-container"> <!-- Add a container for paper content -->
-            <div class="paper-content">
-              <p class="paper-brief">{{ paper.briefly }}</p>
-            </div>
+          <div style="display: flex; justify-content: flex-end;">
+            <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #FF0000; text-decoration: none;">pdf</a>
+            {% if paper.code %}
+              <a href="{{ paper.code }}" class="paper-link">[code]</a>
+            {% endif %}
+            {% if paper.demo %}
+              <a href="{{ paper.demo }}" class a="paper-link">[demo]</a>
+            {% endif %}
           </div>
         </div>
-        <div class="paper-link-container">
-          <div>
-            <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link">PDF</a>
-          </div>
-        </div>
-        {% if paper.code %}
-          <a href="{{ paper.code }}" class="paper-link">[code]</a>
-        {% endif %}
-        {% if paper.demo %}
-          <a href="{{ paper.demo }}" class="paper-link">[demo]</a>
-        {% endif %}
       </li>
     {% endfor %}
-    <li>
-      For the full list of papers, please <a href="https://scholar.google.com/citations?user=4WC4CvsAAAAJ&hl=en" target="_blank">see here</a>.
-    </li>
   </ul>
+  <p>For a complete list of publications, please <a href="https://scholar.google.com/citations?user=4WC4CvsAAAAJ" target="_blank">see here</a>.</p>
 </div>
