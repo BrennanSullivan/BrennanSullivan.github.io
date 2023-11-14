@@ -9,81 +9,59 @@
   margin-left: 0;
   padding: 1em;
   border-radius: 10px;
-  border: 1px solid black; /* Fixed the border style */
-  overflow: auto; /* Ensure content within the item doesn't overflow */
-  width: 70%
-  max-width: 500px; / try this width 
+  border: 1px solid black;
+  overflow: auto;
+  width: 70%;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.paper-link {
+.paper-title-link {
   font-size: small;
   text-decoration: none;
-  border-bottom: dotted 1px black;
+  text-align: center;
+  display: block;
 }
 
-.paper-title {
-  font-family: sans-serif;
-  font-weight: bold;
-  clear: both;
-  font-size: 1.3rem;
-  text-decoration: none;
-}
-  
-.paper-content {
-  overflow: auto; /* Ensure content within the item doesn't overflow */
-  padding-top: 1em;
-  width: 100%;
+.paper-image-brief-container {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.paper-image-container {
+  width: 20%;
 }
 
 .paper-image {
-  margin-right: 1em;
-  float: left;
-  padding-bottom: 1em;
-  width: 20%;
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  height: auto;
 }
 
-.paper-image img {
-  float: none; /* Override the float property */
-  width: 100%; /* Adjust this to your preferred size */
-  height: auto; /* This will maintain the image's aspect ratio */
-  max-width: 300px; /* This will prevent the image from causing horizontal scrolling */
+.paper-content {
+  width: 80%;
 }
 
 .paper-brief {
   text-align: justify;
-  float: left;
-  clear: left; /* Clear left to ensure the content is not next to the image */
-  width: 100%; /* Override the width property */
 }
 
 @media screen and (max-width: 600px) {
-.paper-item {
-  flex-direction: column;
-  align-items: center;
-}
-.paper-image, .paper-content {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.paper-image img {
-  float: none; /* Override the float property */
-  width: 100%; /* Adjust this to your preferred size */
-  height: auto; /* This will maintain the image's aspect ratio */
-  max-width: 300px; /* This will prevent the image from causing horizontal scrolling */
-}
-.paper-content {
-  text-align: center;
-}
-.paper-brief {
-  width: 100%; /* Override the width property */
-}
+  .paper-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .paper-image-container,
+  .paper-content {
+    width: 100%;
+  }
+  .paper-image {
+    width: 100%;
+    height: auto;
+  }
+  .paper-brief {
+    width: 100%;
+  }
 }
