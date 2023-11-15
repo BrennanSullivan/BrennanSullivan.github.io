@@ -7,6 +7,9 @@
     .paper-title-link:hover strong {
       color: red;
     }
+    .paper-link:hover {
+      color: red;
+    }
 
     @media screen and (max-width: 600px) {
       .paper-item {
@@ -50,7 +53,7 @@
             <p class="paper-brief">{{ paper.briefly }}</p>
           </div>
           <div style="display: flex; justify-content: flex-end; margin-top: 0px;">
-            <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="color: #000; text-decoration: none;">PDF</a>
+            <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="font-weight: bold; color: #000; text-decoration: none;">PDF</a>
             {% if paper.code %}
               <a href="{{ paper.code }}" class="paper-link">[code]</a>
             {% endif %}
