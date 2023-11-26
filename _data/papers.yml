@@ -36,7 +36,7 @@
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145727/
     image: Kang2020
     imagetype: gif
-    briefly: "Photoacoustic imaging is a modality that is capable of deep tissue, noninvasive imaging by combining near-infrared light excitation and ultrasound detection. Using a near-infrared cyanine voltage sensitive dye, we demonstrate the ability to monitor in vivo voltage dynamics with sub-mm spatial resolution through an intact skull. This approach, *listening to the membrane potential*, is an experimental imaging modality for functional brain imaging, and can be compared to EEG with improved spatial resolution but poorer temporal resolution."
+    briefly: "Photoacoustic imaging is a modality that is capable of deep tissue, noninvasive imaging by combining near-infrared light excitation and ultrasound detection. Using a near-infrared cyanine voltage sensitive dye, we demonstrate the ability to monitor in vivo voltage dynamics with sub-mm spatial resolution through an intact skull. This approach, listening to the membrane potential, is an experimental imaging modality for functional brain imaging, and can be compared to EEG with improved spatial resolution but poorer temporal resolution."
     highlight: false
 -
     title: "TrkB agonists prevent post-ischemic BDNF-TrkB mediated emergence of refractory neonatal seizures in CD-1 pups."
