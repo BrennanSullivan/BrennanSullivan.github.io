@@ -6,7 +6,7 @@
     url: https://www.nature.com/articles/s41467-023-43252-9#:~:text=Here%20we%20report%20that%20SC,entrant%20loop%20via%20the%20thalamus.
     image: Thomas2023
     imagetype: gif
-    briefly: "During a delayed response task in mice, two populations of neurons represent competing choices in the frontal cortex and the downstream superior colliculus. We found an interhemispheric circuit mechansim that drives push-pull dynamics between competing choices in the superior colliculus, and that the output of the superior colliculus biases the frontal cortex choice activity. These findings challenge traditional models that suggest that decisions are formed in the frontal cortex and inherited by the superior colliculus."
+    briefly: "During a delayed response task in mice, two populations of neurons represent competing choices in the frontal cortex and the downstream superior colliculus. We found an interhemispheric circuit mechanism that drives push-pull dynamics between competing choices in the superior colliculus, and that the output of the superior colliculus biases frontal cortex choice activity. These findings challenge models that suggest that decisions are formed in the frontal cortex and inherited by the superior colliculus.
     highlight: false
     code: https://github.com/NuoLiLabBCM/ThomasYangEtAL2023NC
 -
@@ -17,8 +17,8 @@
     url: https://www.science.org/doi/full/10.1126/scisignal.abg2648
     image: Sullivan2021
     imagetype: png
-    briefly: "Neonatal seizures are often associated with resistance to antiseizure drugs. We found that enhancing KCC2 activity reduced seizures in a neonatal mouse model. KCC2 abundance and phosphorylation were necessary for these effects. These findings demonstrate the potential of KCC2 as a target for neonatal seizures."
-    highlight: true
+    briefly: "Neonatal seizures are often associated with resistance to antiseizure drugs. In a neonatal mouse model, we found that enhancing the chloride co-transporter KCC2 reduced seizures. KCC2 abundance and phosphorylation were necessary for these effects. These findings demonstrate the potential of KCC2 as a therapeutic target for neonatal seizures."
+    highlight: false
     demo: https://patentimages.storage.googleapis.com/a7/e5/27/75549b805850ef/US10525024.pdf 
 -
     title: "Low-Dose Perampanel Rescues Cortical Gamma Dysregulation Associated With Parvalbumin Interneuron GluA2 Upregulation in Epileptic Syngap1<sup>+</sup><sup>/</sup><sup>−</sup> Mice."
@@ -28,8 +28,8 @@
     url: https://www.biologicalpsychiatryjournal.com/article/S0006-3223(20)30002-0/fulltext
     image: Sullivan2020
     imagetype: gif
-    briefly: "Loss-of-function SYNGAP1 mutations cause a neurodevelopmental disorder characterized by intellectual disability and epilepsy. SYNGAP1 is crucial for the formation and regulation of dendritic spines. In our study, we established the sleep dysfunction and epilepsy phenotype in a mouse model. The administration of a low dose of an AMPA receptor antagonist, perampanel, reduced seizures and restored cortical gamma activity. "
-    highlight: true
+    briefly: "Loss-of-function mutations in **SYNGAP1** lead to a neurodevelopmental disorder characterized by intellectual disability and epilepsy (OMIM# [612621](https://www.omim.org/entry/612621)). SYNGAP is crucial for the formation and regulation of dendritic spines and synapses. In our study, we established the sleep dysfunction and epilepsy phenotype in a mouse model of haploinsuffiency. The administration of a low dose of an AMPA receptor antagonist, Perampanel, reduced seizures and restored cortical gamma activity." 
+    highlight: false
 - 
     title: "Transcranial photoacoustic imaging of NMDA-evoked focal circuit dynamics in rat hippocampus."
     authors: "Jeeun Kang, Shilpa Kadam, Joshua Elmore, <strong>Brennan Sullivan</strong><sup>*</sup>, Heather Valentine<sup>*</sup>, Adarsha Malla, Maged Harraz, Arman Rahmim, Jin Kang, Leslie Loew, Michael Baumann, Anthony Grace, Albert Gjedde, Emad Boctor, Dean Wong"
@@ -38,7 +38,7 @@
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145727/
     image: Kang2020
     imagetype: gif
-    briefly: "Photoacoustic imaging is a modality that is capable of deep tissue, noninvasive imaging by combining near-infrared light excitation and ultrasound detection. Using a near-infrared cyanine voltage sensitive dye, we demonstrate the ability to monitor in vivo voltage dynamics with sub-mm spatial resolution through an intact skull. This approach is an experimental imaging modality, and can be compared to EEG with improved spatial resolution but poorer temporal resolution."
+    briefly: "Photoacoustic imaging is capable of noninvasive imaging by combining near-infrared light excitation and ultrasound detection. Using a near-infrared cyanine voltage sensitive dye and photoacoustic imaging, we demonstrate the ability to monitor voltage dynamics with sub-mm spatial resolution through an intact skull. This approach is an experimental imaging modality, and can be compared to EEG with improved spatial resolution but poorer temporal resolution."
     highlight: false
     demo: https://patentimages.storage.googleapis.com/7a/19/32/504c382f0c39e3/US20180200389A1.pdf 
 -
@@ -49,7 +49,7 @@
     url: https://insight.jci.org/articles/view/136007 
     image: Kipnis2020
     imagetype: png
-    briefly: "During prolonged neonatal seizures, excessive activation of the BDNF receptor kinase, TrkB, is associated with the development of refractory seizures. Using a chemical-genetic mouse model, we found that TrkB activation increases postischemic seizure susceptibility in the neonatal brain. However, unlike TrkB antagonists, TrkB agonists exhibit a nonlinear dose-response curve with higher doses actually reducing seizures."
+    briefly: "During prolonged neonatal seizures, excessive activation of the BDNF receptor kinase, TrkB, is associated with the development of refractory seizures. Using a chemical-genetic mouse model, we found that TrkB activation increases postischemic seizure susceptibility in the neonatal brain. However, unlike TrkB antagonists, TrkB agonists exhibit a nonlinear dose-response curve with higher doses reducing seizures."
     highlight: false
 - 
     title: "Dose-dependent reversal of KCC2 hypofunction and phenobarbital-resistant neonatal seizures by ANA12."
