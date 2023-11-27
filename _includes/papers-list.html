@@ -55,12 +55,12 @@
             <p class="paper-brief" style="color: #000; font-size: 0.7em;">{{ paper.briefly }}</p>
           </div>
           <div style="display: flex; justify-content: flex-end; margin-top: 0px;">
-            <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="font-weight: bold; font-size: 0.8em; color: #000; text-decoration: none; transition: color 0.3s;">PDF</a>
+            <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="font-weight: bold; font-size: 0.8em; color: #000; text-decoration: none; transition: color 0.3s;">[pdf]</a>
             {% if paper.code %}
               <a href="{{ paper.code }}" class="paper-link">[code]</a>
             {% endif %}
             {% if paper.demo %}
-              <a href="{{ paper.demo }}" class="paper-link">[demo]</a>
+              <a href="{{ paper.demo }}" class="paper-link">[patent]</a>
             {% endif %}
           </div>
         </div>

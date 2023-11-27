@@ -17,7 +17,8 @@
     image: Sullivan2021
     imagetype: png
     briefly: "Neonatal seizures are often associated with resistance to antiseizure drugs. We found that enhancing KCC2 activity reduced seizures in a neonatal mouse model. KCC2 abundance and phosphorylation were necessary for these effects. These findings demonstrate the potential of KCC2 as a target for neonatal seizures."
-    highlight: false
+    highlight: true
+    demo: https://patentimages.storage.googleapis.com/a7/e5/27/75549b805850ef/US10525024.pdf 
 -
     title: "Low-Dose Perampanel Rescues Cortical Gamma Dysregulation Associated With Parvalbumin Interneuron GluA2 Upregulation in Epileptic Syngap1<sup>+</sup><sup>/</sup><sup>−</sup> Mice."
     authors: "<strong>Brennan Sullivan</strong>, Simon Ammanuel, Pavel Kipnis, Yoichi Araki, Richard Huganir, Shilpa Kadam"
@@ -27,7 +28,7 @@
     image: Sullivan2020
     imagetype: gif
     briefly: "Loss-of-function SYNGAP1 mutations cause a neurodevelopmental disorder characterized by intellectual disability and epilepsy. SYNGAP1 is crucial for the formation and regulation of dendritic spines. In our study, we established the sleep dysfunction and epilepsy phenotype in a mouse model. The administration of a low dose of an AMPA receptor antagonist, perampanel, reduced seizures and restored cortical gamma activity. "
-    highlight: false
+    highlight: true
 - 
     title: "Transcranial photoacoustic imaging of NMDA-evoked focal circuit dynamics in rat hippocampus."
     authors: "Jeeun Kang, Shilpa Kadam, Joshua Elmore, <strong>Brennan Sullivan</strong><sup>*</sup>, Heather Valentine<sup>*</sup>, Adarsha Malla, Maged Harraz, Arman Rahmim, Jin Kang, Leslie Loew, Michael Baumann, Anthony Grace, Albert Gjedde, Emad Boctor, Dean Wong"
@@ -38,6 +39,7 @@
     imagetype: gif
     briefly: "Photoacoustic imaging is a modality that is capable of deep tissue, noninvasive imaging by combining near-infrared light excitation and ultrasound detection. Using a near-infrared cyanine voltage sensitive dye, we demonstrate the ability to monitor in vivo voltage dynamics with sub-mm spatial resolution through an intact skull. This approach is an experimental imaging modality, and can be compared to EEG with improved spatial resolution but poorer temporal resolution."
     highlight: false
+    demo: https://patentimages.storage.googleapis.com/7a/19/32/504c382f0c39e3/US20180200389A1.pdf 
 -
     title: "TrkB agonists prevent post-ischemic BDNF-TrkB mediated emergence of refractory neonatal seizures in CD-1 pups."
     authors: " Pavel Kipnis<sup>*</sup>, <strong>Brennan Sullivan</strong><sup>*</sup>, Brandon Carter, Shilpa Kadam"
