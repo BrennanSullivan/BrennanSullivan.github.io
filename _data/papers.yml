@@ -28,7 +28,7 @@
     url: https://www.biologicalpsychiatryjournal.com/article/S0006-3223(20)30002-0/fulltext
     image: Sullivan2020
     imagetype: gif
-    briefly: "Loss-of-function mutations in **SYNGAP1** lead to a neurodevelopmental disorder characterized by intellectual disability and epilepsy (OMIM# [612621](https://www.omim.org/entry/612621)). SYNGAP is crucial for the formation and regulation of dendritic spines and synapses. In our study, we established the sleep dysfunction and epilepsy phenotype in a mouse model of haploinsuffiency. The administration of a low dose of an AMPA receptor antagonist, Perampanel, reduced seizures and restored cortical gamma activity." 
+    briefly: "Loss-of-function mutations in SYNGAP1 lead to a neurodevelopmental disorder characterized by intellectual disability and epilepsy (OMIM# 612621). SYNGAP is crucial for the formation and regulation of dendritic spines and synapses. In our study, we established the sleep dysfunction and epilepsy phenotype in a mouse model of haploinsuffiency. The administration of a low dose of an AMPA receptor antagonist, Perampanel, reduced seizures and restored cortical gamma activity." 
     highlight: false
 - 
     title: "Transcranial photoacoustic imaging of NMDA-evoked focal circuit dynamics in rat hippocampus."
