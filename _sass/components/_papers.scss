@@ -39,9 +39,13 @@
 // Styles for the paper brief
 .paper-brief {
   text-align: justify;
-  font-size: 0.7em ! important;
+  font-size: 0.7em !important;
   font-weight: normal;
   color:#000;
+}
+.paper-brief span {
+  color: #000 !important;
+  font-size: 0.7em !important;
 }
 
 .paper-link {
