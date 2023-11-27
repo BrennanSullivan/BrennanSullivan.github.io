@@ -8,6 +8,7 @@
     imagetype: gif
     briefly: "During a delayed response task in mice, two populations of neurons represent competing choices in the frontal cortex and the downstream superior colliculus. We found an interhemispheric circuit mechansim that drives push-pull dynamics between competing choices in the superior colliculus, and that the output of the superior colliculus biases the frontal cortex choice activity. These findings challenge traditional models that suggest that decisions are formed in the frontal cortex and inherited by the superior colliculus."
     highlight: false
+    code: https://github.com/NuoLiLabBCM/ThomasYangEtAL2023NC
 -
     title: "Targeting ischemia-induced KCC2 hypofunction rescues refractory neonatal seizures and mitigates epileptogenesis in a mouse model."
     authors: "<strong>Brennan Sullivan</strong>, Pavel Kipnis, Brandon Carter, Li-Rong Shao, Shilpa Kadam" 
