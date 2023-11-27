@@ -57,10 +57,10 @@
           <div style="display: flex; justify-content: flex-end; margin-top: 0px;">
             <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="font-weight: bold; font-size: 0.8em; color: #000; text-decoration: none;">pdf</a>
             {% if paper.code %}
-              <a href="{{ paper.code }}" class="paper-link" style ="font-weight: bold; font-size: 0.8em; color: #000; text-decoration: none;">|code</a>
+              <a href="{{ paper.code }}" class="paper-link" style ="font-weight: bold; font-size: 0.8em; color: #000; text-decoration: none;"> | code</a>
             {% endif %}
             {% if paper.demo %}
-              <a href="{{ paper.demo }}" class="paper-link" style="font-weight: bold; font-size:0.8em; color: #000; text-decoration: none;">|patent</a>
+              <a href="{{ paper.demo }}" class="paper-link" style="font-weight: bold; font-size:0.8em; color: #000; text-decoration: none;"> | patent</a>
             {% endif %}
           </div>
         </div>
