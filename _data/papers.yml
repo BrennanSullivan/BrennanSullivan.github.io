@@ -28,7 +28,7 @@
     url: https://www.biologicalpsychiatryjournal.com/article/S0006-3223(20)30002-0/fulltext
     image: Sullivan2020
     imagetype: gif
-    briefly: "Loss-of-function mutations in SYNGAP1 lead to a neurodevelopmental disorder characterized by intellectual disability and epilepsy. SYNGAP is crucial for the formation of dendritic spines and the regulation of AMPA receptor insertion into the postsynaptic membrane. In our study, we established the sleep dysfunction and epilepsy phenotype in a Syngap1 haploinsufficient mouse model. The administration of an AMPA receptor antagonist, Perampanel, reduced seizures and restored cortical gamma activity on EEG in mice. Perampanel has subsequently demonstrated efficacy in SYNGAP1 patients and patients with genetic epilepsies that have pathogenic variants related to glutamatergic synaptic transmission PMID:36734057 and PMID:37662032."
+    briefly: "Loss-of-function SYNGAP1 mutations cause a neurodevelopmental disorder characterized by intellectual disability and epilepsy. SYNGAP is crucial for dendritic spine formation and the regulation of AMPA receptor insertion into the postsynaptic membrane. In our study, we established the sleep dysfunction and epilepsy phenotype in a haploinsufficient mouse model. Administering an AMPA receptor antagonist, Perampanel, reduced seizures and restored cortical gamma activity on EEG in mice. Interestingly, Perampanel has demonstrated efficacy in SYNGAP1 patients and epilepsy patients with pathogenic variants related to glutamatergic synaptic transmission (Nissenkorn et al. 2023, Epilepsia; Gupta et al. 2023, Front. Neurol.)."
     highlight: false
 - 
     title: "Transcranial photoacoustic imaging of NMDA-evoked focal circuit dynamics in rat hippocampus."
