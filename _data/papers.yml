@@ -6,7 +6,7 @@
     url: https://www.nature.com/articles/s41467-023-43252-9#:~:text=Here%20we%20report%20that%20SC,entrant%20loop%20via%20the%20thalamus.
     image: Thomas2023
     imagetype: gif
-    briefly: "During a delayed response task in mice, two populations of neurons represent competing choices in the frontal cortex and the downstream superior colliculus. We found an interhemispheric circuit mechanism that drives push-pull dynamics between competing choices in the superior colliculus, and that the output of the superior colliculus biases frontal cortex choice activity. These findings challenge models that suggest that decisions are formed in the frontal cortex and inherited by the superior colliculus."
+    briefly: "During a delayed response task in mice, two populations of neurons represent competing choices in the frontal cortex and the superior colliculus. We found interhemispheric push-pull dynamics between these competing choices in the superior colliculus, and that the output of the superior colliculus biases frontal cortex choice activity. These findings challenge models that suggest that decisions are formed in the frontal cortex and inherited by the superior colliculus."
     highlight: false
     code: https://github.com/NuoLiLabBCM/ThomasYangEtAL2023NC
 -
@@ -49,15 +49,5 @@
     url: https://insight.jci.org/articles/view/136007 
     image: Kipnis2020
     imagetype: gif
-    briefly: "During prolonged neonatal seizures, excessive activation of the BDNF receptor kinase, TrkB, is associated with the development of refractory seizures. We found that TrkB activation increases postischemic seizure susceptibility in the neonatal brain."
-    highlight: false
-- 
-    title: "Dose-dependent reversal of KCC2 hypofunction and phenobarbital-resistant neonatal seizures by ANA12."
-    authors: "Brandon Carter, <strong>Brennan Sullivan</strong>, Joseph Landers, Shilpa Kadam"
-    journal: Scientific Reports
-    year: 2018
-    url: https://www.nature.com/articles/s41598-018-30486-7
-    image: Carter2018
-    imagetype: png
-    briefly: "During prolonged neonatal seizures, excessive activation of the BDNF receptor kinase, TrkB, is associated with the development of refractory seizures. We found that the TrkB antagonist, ANA-12, effectively prevented the development of refractory neonatal seizures in a mouse model."
+    briefly: "During prolonged neonatal seizures, excessive activation of BDNF receptor kinase TrkB is associated with the onset of phenobarbital-resistant seizures. Our findings suggest that TrkB activation increases post-ischemic seizure susceptibility in the neonatal brain, and that TrkB inhibition can prevent the development of phenobarbital-resistant neonatal seizures in a mouse model."
     highlight: false
