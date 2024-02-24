@@ -38,7 +38,7 @@
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145727/
     image: Kang2020
     imagetype: gif
-    briefly: "Photoacoustic imaging is capable of noninvasive imaging by combining near-infrared light excitation and ultrasound detection. Using a near-infrared cyanine voltage sensitive dye and photoacoustic imaging, we demonstrate the ability to monitor voltage dynamics with sub-mm spatial resolution through an intact skull. This approach is an experimental imaging modality, and can be compared to EEG with improved spatial resolution but poorer temporal resolution."
+    briefly: "Photoacoustic imaging is capable of noninvasive imaging by combining near-infrared light excitation and ultrasound detection. Using a near-infrared cyanine voltage sensitive dye and photoacoustic imaging, we demonstrate the ability to monitor voltage dynamics with sub-mm spatial resolution through an intact skull."
     highlight: false
     demo: https://patentimages.storage.googleapis.com/7a/19/32/504c382f0c39e3/US20180200389A1.pdf 
 -
@@ -49,7 +49,7 @@
     url: https://insight.jci.org/articles/view/136007 
     image: Kipnis2020
     imagetype: gif
-    briefly: "During prolonged neonatal seizures, excessive activation of the BDNF receptor kinase, TrkB, is associated with the development of refractory seizures. Using a chemical-genetic mouse model, we found that TrkB activation increases postischemic seizure susceptibility in the neonatal brain. However, unlike TrkB antagonists, TrkB agonists exhibit a nonlinear dose-response curve with higher doses reducing seizures."
+    briefly: "During prolonged neonatal seizures, excessive activation of the BDNF receptor kinase, TrkB, is associated with the development of refractory seizures. We found that TrkB activation increases postischemic seizure susceptibility in the neonatal brain. However, unlike TrkB antagonists, TrkB agonists exhibit a nonlinear dose-response curve with higher doses reducing seizures."
     highlight: false
 - 
     title: "Dose-dependent reversal of KCC2 hypofunction and phenobarbital-resistant neonatal seizures by ANA12."
@@ -59,5 +59,5 @@
     url: https://www.nature.com/articles/s41598-018-30486-7
     image: Carter2018
     imagetype: png
-    briefly: "During prolonged neonatal seizures, excessive activation of the BDNF receptor kinase, TrkB, is associated with the development of refractory seizures. We found that the TrkB antagonist, ANA-12, effectively prevented the development of refractory neonatal seizures in a mouse model. A notable difference between the sexes was observed, with females responding better than males."
+    briefly: "During prolonged neonatal seizures, excessive activation of the BDNF receptor kinase, TrkB, is associated with the development of refractory seizures. We found that the TrkB antagonist, ANA-12, effectively prevented the development of refractory neonatal seizures in a mouse model."
     highlight: false
