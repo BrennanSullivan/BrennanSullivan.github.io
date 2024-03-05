@@ -11,20 +11,25 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-
 \documentclass{resume} % Use the custom resume.cls style
 \usepackage{enumitem}
 \usepackage[left=0.75in,top=0.75in,right=0.75in,bottom=0.75in]{geometry} % Document margins
-%\usepackage[none]{hyphenat} % no hyphenation
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\name{Brennan James Sullivan} % Your name
-\address{brennansullivan.info \\ brennan.sullivan@bcm.edu} % Your phone number and email
+\name{Brennan Sullivan} % Your name
+\address{brennansullivan.info | brennan.sullivan at bcm.edu} % Your phone number and email
+
+% Redefine the section heading format
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\Large\bfseries}{}{0em}{} % Adjust the format here
+
 \begin{document}
+
+
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
-\begin{rSection}{{\bfseries EDUCATION}}
+\begin{rSection}{{\bfseries Education}}
  
     {\bfseries Baylor College of Medicine} \hfill { 2021 - Present }
     \\ Ph.D. — Neuroscience
@@ -36,7 +41,7 @@
     \end{rSection}
 
 
-\begin{rSection}{{\bfseries RESEARCH POSITIONS}}
+\begin{rSection}{{\bfseries Research Positions}}
     
     {\bfseries Graduate Student | Jeff Magee Lab} \hfill {2022 - Present}
     \\ Howard Hughes Medical Institute
@@ -55,7 +60,7 @@
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS SECTION
 %----------------------------------------------------------------------------------------
-\begin{rSection}{{\bfseries PUBLICATIONS}}
+\begin{rSection}{{\bfseries Publications}}
 
     \begin{enumerate}[resume, leftmargin=0pt]
         \item [] Articles [* denotes equal contribution]
@@ -92,7 +97,7 @@
 %----------------------------------------------------------------------------------------
 %	INVITED TALKS SECTION
 %----------------------------------------------------------------------------------------
-\begin{rSection}{{\bfseries INVITED TALKS}}
+\begin{rSection}{{\bfseries Invited Talks}}
     \setlist[enumerate,0] {leftmargin=0pt}
     {\bfseries Johns Hopkins University and Kennedy Krieger Institute, Baltimore, MD} \hfill {2022} 
    \\ Pediatric Neuroscience Collaboration Seminar, Virtual Live Content Event
@@ -127,7 +132,7 @@
 %--------------------------------------------------------------------------------
 %    AWARDS SECTION, to become AWARDS and GRANTS 
 %-----------------------------------------------------------------------------------------------
-\begin{rSection}{{\bfseries AWARDS}}
+\begin{rSection}{{\bfseries Awards}}
     NINDS Curing the Epilepsies Conference Travel Award \hfill {2021}
     \\ \emph{CURE Epilepsy} 
    
@@ -147,7 +152,7 @@
 %----------------------------------------------------------------------------------------
        %UNIVERSITY SERVICE, and DEI/OUTREACH ACTIVITES 
 %----------------------------------------------------------------------------------------
-\begin{rSection}{{\bfseries SERVICE \& OUTREACH}}
+\begin{rSection}{{\bfseries Service \& Outreach}}
 Ad-Hoc reviewer for \emph{eLife, BRAIN, Molecular Psychiatry, Journal of Neural Engineering, Epilepsy Research, and Neuropharmacology}
 \item Skype a Scientist  \hfill {2018 - Present}
 \\ \emph{Volunteer Scientist}
@@ -175,7 +180,7 @@ Ad-Hoc reviewer for \emph{eLife, BRAIN, Molecular Psychiatry, Journal of Neural 
 %----------------------------------------------------------------------------------------
 % Leadserhip Experience
 %----------------------------------------------------------------------------------------
-\begin{rSection}{{\bfseries LEADERSHIP EXPERIENCE}}
+\begin{rSection}{{\bfseries Additional Experience}}
 Rhodes College Varsity Men’s Basketball  \hfill {2013 - 2017}
 \\ \emph{Team Captain 2015, 2016, 2017}
 \\ \emph{SAA Conference Champion 2015, 2017}
