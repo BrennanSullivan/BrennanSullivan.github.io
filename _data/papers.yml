@@ -30,24 +30,3 @@
     imagetype: gif
     briefly: "Loss-of-function SYNGAP1 mutations cause a neurodevelopmental disorder characterized by intellectual disability and epilepsy. In our study, we established the sleep dysfunction and epilepsy phenotype in a haploinsufficient mouse model. Administering an AMPA receptor antagonist, Perampanel, reduced seizures and restored EEG activity in mice."
     highlight: false
-- 
-    title: "Transcranial photoacoustic imaging of NMDA-evoked focal circuit dynamics in rat hippocampus."
-    authors: "Jeeun Kang, Shilpa Kadam, Joshua Elmore, <strong>Brennan Sullivan</strong><sup>*</sup>, Heather Valentine<sup>*</sup>, Adarsha Malla, Maged Harraz, Arman Rahmim, Jin Kang, Leslie Loew, Michael Baumann, Anthony Grace, Albert Gjedde, Emad Boctor, Dean Wong"
-    journal: "Journal of Neural Engineering"
-    year: 2020
-    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145727/
-    image: Kang2020
-    imagetype: gif
-    briefly: "Photoacoustic imaging is capable of noninvasive imaging by combining near-infrared light excitation and ultrasound detection. Using a near-infrared cyanine voltage sensitive dye and photoacoustic imaging, we demonstrate the ability to monitor voltage dynamics with sub-mm spatial resolution through an intact skull."
-    highlight: false
-    demo: https://patentimages.storage.googleapis.com/7a/19/32/504c382f0c39e3/US20180200389A1.pdf 
--
-    title: "TrkB agonists prevent post-ischemic BDNF-TrkB mediated emergence of refractory neonatal seizures in CD-1 pups."
-    authors: " Pavel Kipnis<sup>*</sup>, <strong>Brennan Sullivan</strong><sup>*</sup>, Brandon Carter, Shilpa Kadam"
-    journal: "JCI Insight"
-    year: 2020
-    url: https://insight.jci.org/articles/view/136007 
-    image: Kipnis2020
-    imagetype: gif
-    briefly: "During prolonged neonatal seizures, excessive activation of BDNF receptor kinase TrkB is associated with the onset of phenobarbital-resistant seizures. Our findings suggest that TrkB activation increases post-ischemic seizure susceptibility in the neonatal brain, and that TrkB inhibition can prevent the development of phenobarbital-resistant neonatal seizures in a mouse model."
-    highlight: false
