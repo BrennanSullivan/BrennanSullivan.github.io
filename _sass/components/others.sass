@@ -43,16 +43,27 @@
         margin: 2rem 0 2rem -7%
 
 .breaker
-    height: 1px
-    margin: 6rem auto
+    height: 10px
+    margin: 4rem auto
     width: 100%
+    background: linear-gradient(to right, black, white)
+    position: relative
+    overflow: hidden
+    border: solid 2px #333
 
-    &:before
-        content: "• • •"
+    &:after
+        content: ""
+        position: absolute
+        height: 100%
+        width: 0
+        background: black
+        animation: draw 2s ease-out forwards
+
+@keyframes draw
+    from
+        width: 0
+        left: 0
+    to
         width: 100%
-        text-align: center
-        display: block
-        color: $gama
-        letter-spacing: 4px
-        position: relative
-        top: -8px
+        left: 0
+
