@@ -20,7 +20,7 @@
     imagetype: png
     briefly: "Neonatal seizures are often associated with resistance to antiseizure drugs. In a neonatal mouse model, we found that enhancing the chloride co-transporter KCC2 reduced seizures. KCC2 abundance and phosphorylation were necessary for these effects. These findings suggest that KCC2 may be a potential therapeutic target for neonatal seizures."
     highlight: false
-    patent: https://patentimages.storage.googleapis.com/a7/e5/27/75549b805850ef/US10525024.pdf 
+    demo: https://patentimages.storage.googleapis.com/a7/e5/27/75549b805850ef/US10525024.pdf 
 -
     title: "Low-Dose Perampanel Rescues Cortical Gamma Dysregulation Associated With Parvalbumin Interneuron GluA2 Upregulation in Epileptic Syngap1<sup>+</sup><sup>/</sup><sup>−</sup> Mice."
     authors: "<strong>Brennan Sullivan</strong>, Simon Ammanuel, Pavel Kipnis, Yoichi Araki, Richard Huganir, Shilpa Kadam"
