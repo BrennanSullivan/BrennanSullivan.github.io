@@ -65,12 +65,12 @@
           <p class="paper-brief" style="color: #000; font-size: 1em; text-align: justify;">{{ paper.briefly }}</p>
         </div>
         <div style="display: flex; justify-content: flex-end; margin-top: 0px;">
-          <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="font-weight: bold; font-size: 1em; color: #265ef7; text-decoration: none; margin-right: 1px; margin-bottom: 5px;">pdf</a>
+          <a href="static/pdf/papers/{{ paper.image }}.pdf" class="paper-link" style="font-weight: bold; font-size: 1em; color: #265ef7; text-decoration: none; margin-right: 1px; margin-bottom: 10px;">pdf</a>
           {% if paper.code %}
-          | <a href="{{ paper.code }}" class="paper-link" style ="font-weight: bold; font-size: 1em; color: #265ef7; text-decoration: none; margin-right: 3px; margin-left: 1px; margin-bottom: 5px;">code</a>
+          | <a href="{{ paper.code }}" class="paper-link" style ="font-weight: bold; font-size: 1em; color: #265ef7; text-decoration: none; margin-right: 3px; margin-left: 1px; margin-bottom: 10px;">code</a>
           {% endif %}
           {% if paper.demo %}
-          | <a href="{{ paper.demo }}" class="paper-link" style="font-weight: bold; font-size:1em; color: #265ef7; text-decoration: none; margin-right: 3px; margin-left: 1px; margin-bottom: 5px;">patent</a>
+          | <a href="{{ paper.demo }}" class="paper-link" style="font-weight: bold; font-size:1em; color: #265ef7; text-decoration: none; margin-right: 3px; margin-left: 1px; margin-bottom: 10px;">patent</a>
           {% endif %}
         </div>
       </div>
