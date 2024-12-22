@@ -12,7 +12,7 @@
             display: inline-block
             font-weight: 300
             font-size: 1.4rem
-            padding: 20px 10px
+            padding: 6px 3px // Reduced padding by 70%
             text-decoration: none
 
 .nav
@@ -25,10 +25,10 @@
 
         > .item > .link
             font-size: 1.4rem
-            padding: 20px 10px
+            padding: 6px 3px // Reduced padding by 70%
 
 .nav-home
-    border-bottom: 2px solid $epsilon
+    border-bottom: 1px solid $epsilon // Adjusted border-bottom size
     margin: 40px 0 0
     font-size: 1.3rem
     color: $gama
@@ -39,23 +39,22 @@
     &:before
         display: block
         content: " "
-        height: 5px
+        height: 2px // Adjusted height of the line
         width: 100% // This makes the line go full width
         background: black // Set the line color to black
         position: absolute
         bottom: 0 // Adjust this as needed to position the line relative to the bottom of the element
         left: 0
-        border: none // Remove thea border since we want a solid line
+        border: none // Remove the border since we want a solid line
         box-shadow: none // Remove the box shadow for a clean line look
         border-radius: 0 // A line does not need border-radius
-
 
     > .list
         padding: 0
 
         > .item > .link
             font-size: 2rem
-            padding: 7px 15px
+            padding: 2px 4.5px // Reduced padding by 70%
             margin: 0
             border-radius: 4%
             transition: all .4s ease-in-out
