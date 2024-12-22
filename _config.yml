@@ -33,7 +33,7 @@ width: large
 about: true
 
 # do you want to display a skills section? true or false
-skills: tue
+skills: false
 
 # do you want to display a projects section? true or false
 papers-list: true

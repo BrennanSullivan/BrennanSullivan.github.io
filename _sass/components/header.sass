@@ -6,7 +6,7 @@
     z-index: 99
 
     > .link > .selfie
-        width: 250px
+        width: 200px
         margin-bottom: 25px
         border-radius: 100%
         transition: all .2s
@@ -20,7 +20,6 @@
     > .description
         font-size: 1rem
         font-style: normal
-        font-weight: 300
         color: $alpha
         width: 70%
         margin: 0 auto 13px
@@ -28,23 +27,4 @@
         a
             font-weight: 500
 
-.description-typing
-    overflow: hidden
-    border-right: .15em solid black  // change color to black
-    white-space: nowrap
-    margin: 0 auto
-    letter-spacing: .15em
-    animation: typing 5s steps(40, end)
-    max-width: fit-content  // add this line to adjust the width to the length of the text
-
-@keyframes typing
-    from 
-        width: 0
-    to 
-        width: 100%
-
-@keyframes blink-caret
-    from, to 
-        border-color: transparent
-    50% 
-        border-color: black  // change color to black
+// Removed .description-typing and keyframes
