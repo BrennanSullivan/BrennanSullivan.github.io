@@ -1,14 +1,36 @@
-<header class="header-home {% if site.animation %}animated{% endif %}">
-    <span class="link">
-        <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
-    </span>
-
-    <h1 class="title">{{ site.name }}</h1>
-    <h2 class="description">{{ site.bio }}</h2>
-
-    {% if site.social-media %}
-        {% include social-links.html %}
-    {% endif %}
-</header>
-
-{% include nav.html %}
+<head>
+    <style>
+        body {
+            margin: 0;
+            font-family: var(--fontSans);
+        }
+        .header-home {
+            font-family: var(--fontSans); /* Ensure the same font is used */
+            padding: 0; /* Ensure no extra padding */
+            margin: 0; /* Ensure no extra margin */
+        }
+        .header-home h1, .header-home h2 {
+            margin: 0; /* Ensure no extra margin */
+            padding: 0; /* Ensure no extra padding */
+        }
+        a:hover {
+            color: red;
+        }
+    </style>
+  </head>
+  <body>
+  <header class="header-home {% if site.animation %}animated{% endif %}">
+      <span class="link">
+          <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+      </span>
+  
+      <h1 class="title">{{ site.name }}</h1>
+      <h2 class="description">{{ site.bio }}</h2>
+  
+      {% if site.social-media %}
+          {% include social-links.html %}
+      {% endif %}
+  </header>
+  
+  {% include nav.html %}
+  </body>
