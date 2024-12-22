@@ -6,7 +6,7 @@
     year: 2023
     url: https://www.nature.com/articles/s41467-023-43252-9#:~:text=Here%20we%20report%20that%20SC,entrant%20loop%20via%20the%20thalamus.
     image: Thomas2023
-    imagetype: gif
+    imagetype: png
     briefly: "During a delayed-response task in mice, two populations of neurons represent competing choices in the frontal cortex and superior colliculus. We found interhemispheric push-pull dynamics between these competing choices in the superior colliculus and that the output of the superior colliculus biases frontal cortex choice activity. These findings challenge the idea that decisions are formed in the frontal cortex and inherited by the superior colliculus."
     highlight: false
     code: https://github.com/NuoLiLabBCM/ThomasYangEtAL2023NC
